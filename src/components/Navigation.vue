@@ -37,6 +37,7 @@ export default {
     padding: 12px;
   }
   a {
+    outline: none;
     display: inline-block;
     position: relative;
     color: black;
@@ -52,7 +53,7 @@ export default {
     border-bottom: 2px solid transparent;
     transition: all .2s ease-in-out;
   }
-  a:hover:after {
+  a:hover:after, a:focus:after {
     content: "";
     height: 110%;
     border-bottom: 2px solid black;
