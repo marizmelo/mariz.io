@@ -1,38 +1,34 @@
 <template>
-  <div class="work-card" :style="backgroundStyles(background, color)" tabindex="0">
+  <div class="work-card" :style="backgroundStyles(work.background, work.color, work.text)" tabindex="0">
     <div class="card-title">
-      <img :src="logo">
-      <p>{{description}}</p>
+      <img :src="work.logo" :alt="work.description">
+      <p>{{work.description}}</p>
     </div>
-    <div class="card-preview" :style="backgroundStyles(preview)"></div>
+    <div class="card-preview" :style="backgroundStyles(work.preview)"></div>
   </div>
 </template>
 <script>
 export default {
   name: "",
   props: {
-    logo: {
-      default: "static/marizmelo-logo.svg"
-    },
-    description: {
-      default: "Description here"
-    },
-    preview: {
-      default: ''
-    },
-    background: String,
-    color: {
-      default: "#E5E5E5"
-    }
+    work: {}
   },
   data: () => ({
-
+    logo: "static/marizmelo-logo.svg",
+    description: "Description here",
+    background: "",
+    color: "#E5E5E5",
+    preview: ""
   }),
   methods: {
-    backgroundStyles(image, color) {
+    beforeMount() {
+      this.logo = work.logo
+    },
+    backgroundStyles(image, color, text) {
       return {
         'background-image': `url(${image})`,
-        'background-color': `${color}`
+        'background-color': `${color}`,
+        'color': `${text}`
       }
     }
   }
@@ -70,7 +66,7 @@ export default {
     max-width: 450px;
     height: 210px;
     background: #C4C4C4;
-    bottom: -210px;
+    bottom: -190px;
     left: calc(50% - 225px);
     position: absolute;
     transition: all .3s  ease-in-out;
