@@ -19,7 +19,9 @@ export default {
 }
 </script>
 <style scoped>
-
+  #homepage {
+    padding-bottom: 100px;
+  }
   .role_1 {
     animation: role1;
   }

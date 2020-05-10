@@ -1,13 +1,21 @@
 <template>
-  <section id="work" class="mm-container">
-    <div class="mm-layout">
-      <div class="card">hello</div>
-      <div class="card">world</div>
+  <section id="work">
+    <div class="mm-container">
+      <WorkCard/>
+      <WorkCard/>
+    </div>
+    <div class="mm-container">
+      <WorkCard/>
+      <WorkCard/>
     </div>
   </section>
 </template>
 <script>
+import WorkCard from '@/components/WorkCard'
 export default {
+  components: {
+    WorkCard
+  },
   name: "",
   data: () => ({
 
@@ -18,9 +26,5 @@ export default {
   #work {
     padding-top: 56px;
   }
-  .card {
-    background: red;
-    display: inline-flex;
-    width: 48%;
-  }
+  
 </style>
