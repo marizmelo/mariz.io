@@ -59,7 +59,12 @@ export default {
     align-items: center;
     transition: all .3s ease-in-out;
   }
+  .card-title p {
+    opacity: .6;
+  }
   .card-preview {
+    background-position: center;
+    background-size: contain !important;
     width: 100%;
     max-width: 450px;
     height: 200px;
