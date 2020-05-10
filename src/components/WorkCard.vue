@@ -1,5 +1,5 @@
 <template>
-  <div class="work-card" :style="backgroundStyles(background, color)">
+  <div class="work-card" :style="backgroundStyles(background, color)" tabindex="0">
     <div class="card-title">
       <img :src="logo">
       <p>{{description}}</p>
@@ -40,6 +40,7 @@ export default {
 </script>
 <style scoped>
   .work-card {
+    outline: none;
     position: relative;
     overflow: hidden;
     flex: 1;
@@ -68,10 +69,10 @@ export default {
     position: absolute;
     transition: all .3s  ease-in-out;
   }
-  .work-card:hover .card-title {
+  .work-card:hover .card-title, .work-card:focus .card-title {
     margin-top: -100px;
   }
-  .work-card:hover .card-preview {
+  .work-card:hover .card-preview, .work-card:focus .card-preview {
     bottom: 0;
   }
 </style>
