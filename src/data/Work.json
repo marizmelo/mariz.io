@@ -2,6 +2,11 @@
   {
     "location": "oracle-com",
     "description": "Oracle corporate website",
-    "color": ""
+    "color": "#F0E8C9"
+  },
+  {
+    "location": "oracle-cloud",
+    "description": "Oracle Redwood Design System",
+    "color": "#312D2A"
   }
 ]

@@ -55,6 +55,7 @@ export default {
   }
   .card-title {
     display: flex;
+    margin-top: 20px;
     flex-direction: column;
     align-items: center;
     transition: all .3s ease-in-out;
@@ -64,12 +65,12 @@ export default {
   }
   .card-preview {
     background-position: center;
-    background-size: contain !important;
+    background-size: cover !important;
     width: 100%;
     max-width: 450px;
-    height: 200px;
+    height: 210px;
     background: #C4C4C4;
-    bottom: -200px;
+    bottom: -210px;
     left: calc(50% - 225px);
     position: absolute;
     transition: all .3s  ease-in-out;
