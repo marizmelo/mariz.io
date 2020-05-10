@@ -1,6 +1,6 @@
 <template>
   <nav id="navigation" class="mm-container">
-    <div class="mm-layout">
+    <div>
       <img src="static/marizmelo-logo.svg">
       <ul>
         <li><a href="">Work</a></li>
@@ -29,7 +29,7 @@ export default {
     list-style: none;
     display: flex;
     position: absolute;
-    top: -6px;
+    top: 36px;
     right: 0;
     font-size: 1.25rem;
   }
