@@ -9,7 +9,7 @@
 </template>
 <script>
 import WorkCard from '@/components/WorkCard'
-import WorkData from '@/data/Work'
+import WorkData from '@/data/work'
 export default {
   components: {
     WorkCard

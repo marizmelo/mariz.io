@@ -4,16 +4,13 @@
       <h1>Hello! I’m <b>Mariz Melo</b><span class="role_1">, a product designer</span><span class="role_2">, a systems designer</span></h1>
     </div>
     <Work/>
-    <Footer/>
   </div>
 </template>
 <script>
 import Work from '@/components/Work'
-import Footer from '@/components/Footer'
 export default {
   components: {
-    Work,
-    Footer
+    Work
   },
   name: "",
   data: () => ({
