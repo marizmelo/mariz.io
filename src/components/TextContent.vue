@@ -1,15 +1,13 @@
 <template>
-  <div v-html="text"></div>
+  <div v-html="content.content"></div>
 </template>
 <script>
 export default {
   props: {
-    text
+    content: {}
   },
-  name: "",
-  data: () => ({
-
-  })
+  name: "TextContent",
+  data: () => ({})
 }
 </script>
 <style scoped>
