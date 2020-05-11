@@ -4,7 +4,7 @@
       <img src="static/marizmelo-logo.svg">
       <ul>
         <li><a href="">Work</a></li>
-        <li><a href="">Get in touch</a></li>
+        <li><a href="static/mariz.pdf" target="_blank">Get in touch</a></li>
       </ul>
     </div>
   </nav>
