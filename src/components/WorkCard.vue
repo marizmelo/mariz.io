@@ -51,6 +51,7 @@ export default {
   }
   .card-title {
     display: flex;
+    justify-content: center;
     margin-top: 20px;
     flex-direction: column;
     align-items: center;

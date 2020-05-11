@@ -50,7 +50,7 @@ export default {
     left: 0;
     width: 100%;
     height: 95%;
-    border-bottom: 2px solid transparent;
+    border-bottom: 2px solid white; /* bug on safari for transparent, investigate later, this does not scale */
     transition: all .2s ease-in-out;
   }
   a:hover:after, a:focus:after {
