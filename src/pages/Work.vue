@@ -8,11 +8,13 @@
 <script>
 
 import TextContent from '@/components/TextContent'
+import Images from '@/components/Images'
 import Youtube from '@/components/Youtube'
 import Footer from '@/components/Footer'
 export default {
   components: {
     TextContent,
+    Images,
     Youtube,
     Footer
   },
@@ -36,7 +38,7 @@ export default {
 </script>
 <style scoped>
   .spacer {
-   padding: 24px 0;
+   padding: 16px 0;
   }
   .mm-container {
     width: 768px;

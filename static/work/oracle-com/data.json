@@ -8,6 +8,19 @@
   		}
 	 },
    {
+     "name": "Images",
+     "props": {
+       "url": "static/work/oracle-com/page/workshop.jpg",
+       "alt": "Oracle.com workshop"
+     }
+   },
+   {
+     "name": "TextContent",
+     "props": {
+       "content": "<p>We had a good time discussing common themes and getting to know each other. Each table became a group and each group should propose solutions for common challenges across the company. I remember being in the group trying to solve how we could migrate current on-premises customers to the cloud in a shorter amount of time.</p>"
+     }
+   },
+   {
      "name": "Youtube",
      "props": {
        "url": "https://www.youtube-nocookie.com/embed/8yLIFcjEotU",

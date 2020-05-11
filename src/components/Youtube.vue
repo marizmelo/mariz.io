@@ -10,9 +10,7 @@ export default {
     content: {}
   },
   name: "Youtube",
-  data: () => ({
-
-  })
+  data: () => ({})
 }
 </script>
 <style scoped>
@@ -20,6 +18,6 @@ export default {
     display: block;
     text-align: center;
     opacity: .6;
-    padding: 24px 0;
+    padding: 24px 0 0;
   }
 </style>
