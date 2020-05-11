@@ -1,11 +1,13 @@
 <template>
-  <div class="work-card" :style="backgroundStyles(work.background, work.color, work.text)" tabindex="0">
-    <div class="card-title">
-      <img :src="work.logo" :alt="work.description">
-      <p>{{work.description}}</p>
+  <router-link :to="'/work/'+work.location" class="work-card-container">
+    <div class="work-card" :style="backgroundStyles(work.background, work.color, work.text)" tabindex="0">
+      <div class="card-title">
+        <img :src="work.logo" :alt="work.description">
+        <p>{{work.description}}</p>
+      </div>
+      <div class="card-preview" :style="backgroundStyles(work.preview)"></div>
     </div>
-    <div class="card-preview" :style="backgroundStyles(work.preview)"></div>
-  </div>
+  </router-link>
 </template>
 <script>
 export default {
@@ -35,6 +37,10 @@ export default {
 }
 </script>
 <style scoped>
+  a {
+    text-decoration: none;
+    color: black;
+  }
   .work-card {
     outline: none;
     position: relative;
