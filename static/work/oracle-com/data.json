@@ -1,9 +1,24 @@
 {
 	"title": "Oracle corporate website",
-	"components": [{
-		"component": "TextContent",
-		"props": {
-			"content": "<p>In the process to create a new identity for the Oracle brand (read about Redwood here) we knew that the iconic Oracle website would be a way for us to make a statement within the company and with our customers. Things were about to change.</p><p> The first thing we did was to identify all the different websites and their owners(anyone that could help us understand the purpose and function of those websites).We invited all of them to join us at our Redwood city conference center for a week long workshop.</p>"
-		}
-	}]
+	"components": [
+    {
+  		"name": "TextContent",
+  		"props": {
+  			"content": "<p>In the process to create a new identity for the Oracle brand (read about Redwood here) we knew that the iconic Oracle website would be a way for us to make a statement within the company and with our customers. Things were about to change.</p><p> The first thing we did was to identify all the different websites and their owners(anyone that could help us understand the purpose and function of those websites).We invited all of them to join us at our Redwood city conference center for a week long workshop.</p>"
+  		}
+	 },
+   {
+     "name": "Youtube",
+     "props": {
+       "url": "https://www.youtube-nocookie.com/embed/8yLIFcjEotU",
+       "caption": "One button migration motion study"
+     }
+   },
+   {
+     "name": "TextContent",
+     "props": {
+       "content": "<p>In the process to create a new identity for the Oracle brand (read about Redwood here) we knew that the iconic Oracle website would be a way for us to make a statement within the company and with our customers. Things were about to change.</p><p> The first thing we did was to identify all the different websites and their owners(anyone that could help us understand the purpose and function of those websites).We invited all of them to join us at our Redwood city conference center for a week long workshop.</p>"
+     }
+  }
+  ]
 }

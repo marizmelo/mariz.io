@@ -46,6 +46,7 @@ export default {
   }
 
   h1 {
+    line-height: 1.2em;
     display: inline-block;
     font-size: 3rem;
     text-align: center;
