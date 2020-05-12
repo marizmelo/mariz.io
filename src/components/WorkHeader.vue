@@ -1,18 +1,35 @@
 <template>
-  <div class="container" :style="backgroundStyles(work, work.color, work.text)">
+  <div class="container" :style="backgroundStyles(data.background, data.color, data.text)">
+    <div class="title">
+      <img :src="data.logo" :alt="data.description">
+      <p>{{data.description}}</p>
+    </div>
+    <div class="preview" :style="backgroundStyles(data.preview)"></div>
   </div>
 </template>
 <script>
 export default {
-  props: ['work'],
+  props: {
+    work: {}
+  },
   name: "",
   data: () => ({
-
+    data: {
+      background: '',
+      color: '',
+      text: '',
+      logo: '',
+      description: '',
+      preview: ''
+    }
   }),
+  mounted() {
+    setTimeout(()=>{this.data = this.work}, 100)
+  },
   methods: {
-    backgroundStyles(image, color, text) {
+    backgroundStyles(background, color, text) {
       return {
-        'background-image': `url(${image})`,
+        'background-image': `url(${background})`,
         'background-color': `${color}`,
         'color': `${text}`
       }
@@ -26,5 +43,6 @@ export default {
     height: 450px;
     background-size: cover;
     margin-bottom: 24px;
+    overflow: hidden;
   }
 </style>

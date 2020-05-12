@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="mm-container mm-header">
-      <WorkHeader work='static/work/oracle-com/background.jpg'/>
+      <WorkCard :work='data.work' :activate='true' />
     </div>
     <div  class="mm-container">
       <div class="spacer">
@@ -11,14 +11,14 @@
   </div>
 </template>
 <script>
-import WorkHeader from '@/components/WorkHeader'
+import WorkCard from '@/components/WorkCard'
 import TextContent from '@/components/TextContent'
 import Images from '@/components/Images'
 import Youtube from '@/components/Youtube'
 import Footer from '@/components/Footer'
 export default {
   components: {
-    WorkHeader,
+    WorkCard,
     TextContent,
     Images,
     Youtube,
@@ -26,15 +26,12 @@ export default {
   },
   name: "",
   data: () => ({
-    data: {},
-    swapComponent: "TextContent"
+    data: {}
   }),
   mounted() {
-    console.log();
     this.axios.get('static/work/'+this.$route.params.id+'/data.json')
     .then(response => {
       this.data = response.data
-
     })
     .catch(e => {
       return;

@@ -1,6 +1,6 @@
 <template>
-  <router-link :to="'/work/'+work.location" class="work-card-container">
-    <div class="work-card" :style="backgroundStyles(work.background, work.color, work.text)" tabindex="0">
+  <router-link :to="'/work/'+work.location" class="work-card-container" :class="activate ? 'active':''">
+    <div class="work-card" :style="backgroundStyles(work.background, work.color, work.text)">
       <div class="card-title">
         <img :src="work.logo" :alt="work.description">
         <p>{{work.description}}</p>
@@ -13,7 +13,8 @@
 export default {
   name: "",
   props: {
-    work: {}
+    work: {},
+    activate: Boolean
   },
   data: () => ({
     logo: "static/marizmelo-logo.svg",
@@ -41,19 +42,23 @@ export default {
     text-decoration: none;
     color: black;
   }
-  .work-card {
+  .work-card-container {
     outline: none;
+    display: flex;
+    width: 100%;
+  }
+  .work-card {
     position: relative;
     overflow: hidden;
     flex: 1;
     box-sizing: border-box;
     margin: 10px;
-    cursor: pointer;
     height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-size: cover;
   }
   .card-title {
     display: flex;
@@ -78,10 +83,13 @@ export default {
     position: absolute;
     transition: all .3s  ease-in-out;
   }
-  .work-card:hover .card-title, .work-card:focus .card-title {
+  .work-card-container:hover .card-title, .work-card-container:focus .card-title, .work-card-container.active .card-title {
     margin-top: -100px;
   }
-  .work-card:hover .card-preview, .work-card:focus .card-preview {
+  .work-card-container:hover .card-preview, .work-card-container:focus .card-preview, .work-card-container.active .card-preview {
     bottom: 0;
+  }
+  .work-card-container.active {
+    cursor: default;
   }
 </style>

@@ -1,5 +1,13 @@
 {
 	"title": "Oracle corporate website",
+	"work": {
+		"location": "oracle-com",
+		"logo": "/static/work/oracle-com/logo.svg",
+		"description": "Oracle corporate website",
+		"preview": "/static/work/oracle-com/preview.jpg",
+		"background": "/static/work/oracle-com/background.jpg",
+		"color": "#F0E8C9"
+	},
 	"components": [
     {
   		"name": "TextContent",

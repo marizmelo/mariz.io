@@ -23,9 +23,11 @@ export default {
 <style>
   @import 'assets/styles.css';
   .fade-enter-active, .fade-enter-to, .fade-leave, .fade-leave-active {
-    transition: opacity 0.3s ease-out;
+    transition: all 0.3s ease-out;
   }
   .fade-enter, .fade-leave-to {
+    margin-top: 50px;
     opacity: 0;
+
   }
 </style>
