@@ -21,12 +21,10 @@ export default {
     description: "Description here",
     background: "",
     color: "#E5E5E5",
-    preview: ""
+    preview: "",
+    location: ""
   }),
   methods: {
-    beforeMount() {
-      this.logo = work.logo
-    },
     backgroundStyles(image, color, text) {
       return {
         'background-image': `url(${image})`,
@@ -53,7 +51,7 @@ export default {
     flex: 1;
     box-sizing: border-box;
     margin: 10px;
-    height: 450px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,5 +89,8 @@ export default {
   }
   .work-card-container.active {
     cursor: default;
+  }
+  .work-card-container.active .work-card {
+    margin: 0;
   }
 </style>

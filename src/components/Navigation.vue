@@ -1,10 +1,10 @@
 <template>
   <nav id="navigation" class="mm-container">
     <div>
-      <img src="static/marizmelo-logo.svg">
+      <img src="/static/marizmelo-logo.svg">
       <ul>
         <li><router-link to="/">Work</router-link></li>
-        <li><a href="static/mariz.pdf" target="_blank">Get in touch</a></li>
+        <li><a href="/static/mariz.pdf" target="_blank">Get in touch</a></li>
       </ul>
     </div>
   </nav>
@@ -30,7 +30,7 @@ export default {
     display: flex;
     position: absolute;
     top: 36px;
-    right: 0;
+    right: 48px;
     font-size: 1.25rem;
   }
   li {

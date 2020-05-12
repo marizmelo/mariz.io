@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="mm-container mm-header">
+      <a href="https://mariz.io" target="_blank" class="link">Visit project</a>
       <WorkCard :work='data.work' :activate='true' />
     </div>
     <div  class="mm-container">
@@ -29,7 +30,7 @@ export default {
     data: {}
   }),
   mounted() {
-    this.axios.get('static/work/'+this.$route.params.id+'/data.json')
+    this.axios.get('/static/work/'+this.$route.params.id+'/data.json')
     .then(response => {
       this.data = response.data
     })
@@ -40,6 +41,18 @@ export default {
 }
 </script>
 <style scoped>
+  .link {
+    position: absolute;
+    z-index: 10;
+    background: white;
+    padding: 8px 16px;
+    border-radius: 100px;
+    right: 80px;
+    top: 24px;
+    font-size: .8em;
+    color: black;
+    text-decoration: none;
+  }
   .spacer {
    padding: 16px 0;
   }
