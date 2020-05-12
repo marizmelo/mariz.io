@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Navigation/>
-    <router-view/>
+    <transition name="fade">
+      <router-view/>
+    </transition>
     <Footer/>
   </div>
 </template>
@@ -20,4 +22,10 @@ export default {
 
 <style>
   @import 'assets/styles.css';
+  .fade-enter-active, .fade-enter-to, .fade-leave, .fade-leave-active {
+    transition: opacity 0.3s ease-out;
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
 </style>

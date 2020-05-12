@@ -52,8 +52,6 @@ export default {
     text-align: center;
     padding: 100px 0;
     top: 0;
-    animation-name: fadeIn;
-    animation-duration: .8s;
   }
   /* Role animation */
   @keyframes role2 {

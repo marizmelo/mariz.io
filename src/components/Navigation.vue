@@ -3,7 +3,7 @@
     <div>
       <img src="static/marizmelo-logo.svg">
       <ul>
-        <li><a href="">Work</a></li>
+        <li><router-link to="/">Work</router-link></li>
         <li><a href="static/mariz.pdf" target="_blank">Get in touch</a></li>
       </ul>
     </div>
