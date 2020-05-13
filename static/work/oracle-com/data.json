@@ -1,5 +1,4 @@
 {
-	"title": "Oracle corporate website",
 	"work": {
 		"location": "oracle-com",
 		"logo": "/static/work/oracle-com/logo.svg",
@@ -19,7 +18,7 @@
    {
      "name": "Images",
      "props": {
-       "url": "/static/work/oracle-com/page/workshop.jpg",
+       "url": "/static/work/oracle-com/workshop.jpg",
        "alt": "Oracle.com workshop"
      }
    },
@@ -45,7 +44,7 @@
 		{
 			"name": "Images",
 			"props": {
-				"url": "/static/work/oracle-com/page/light-migration.jpg",
+				"url": "/static/work/oracle-com/light-migration.jpg",
 				"alt": "Oracle.com workshop"
 			}
 		},

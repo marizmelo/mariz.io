@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="mm-container mm-header">
-      <a href="https://mariz.io" target="_blank" class="link">Visit project</a>
+      <a :href="data.work.url" target="_blank" class="link" v-if="data.work.url">Visit project</a>
       <WorkCard :work='data.work' :activate='true' />
     </div>
     <div  class="mm-container">
@@ -27,9 +27,11 @@ export default {
   },
   name: "",
   data: () => ({
-    data: {}
+    data: {
+      work:''
+    }
   }),
-  mounted() {
+  created() {
     this.axios.get('/static/work/'+this.$route.params.id+'/data.json')
     .then(response => {
       this.data = response.data

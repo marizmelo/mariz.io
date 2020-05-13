@@ -1,0 +1,78 @@
+{
+	"work": {
+		"location": "oracle-cloud",
+    "logo": "/static/work/oracle-cloud/logo.svg",
+    "description": "Oracle Cloud Web Console",
+    "preview": "/static/work/oracle-cloud/preview.jpg",
+    "background":"/static/work/oracle-cloud/background.jpg",
+    "color": "#312D2A",
+		"url": "https://www.oracle.com/cloud/"
+	},
+	"components": [
+    {
+  		"name": "TextContent",
+  		"props": {
+  			"content": "<p>One of my first tasks at Oracle was to work with your Cloud team on ways to simply their web console experience. As a cloud user I was really excited by this opportunity.</p><p>The first task given to me was to sign up for our cloud infrastructure services. I identified several bottlenecks during the sign-up that we could remove or simplify along the way.</p>"
+  		}
+	 },
+   {
+     "name": "Youtube",
+     "props": {
+       "url": "https://www.youtube-nocookie.com/embed/zlL_aPQln8o",
+       "caption": "Quick cloud sign-up exploration (old design system)"
+     }
+   },
+   {
+     "name": "TextContent",
+     "props": {
+       "content": "<p>Below is the final design for the sign-up screen. <a href='http://jsfiddle.net/jmarizfiddle/z9jdy15k/' target='_blank'>Access here</a> the prototype we did for the engineering team.</p>"
+     }
+  	},
+ 	 {
+ 		 "name": "Images",
+ 		 "props": {
+ 			 "url": "/static/work/oracle-cloud/signup.jpg",
+ 			 "alt": "Signup Oracle Cloud"
+ 		 }
+ 	 },
+   {
+     "name": "TextContent",
+     "props": {
+       "content": "<p>In order to promote consistency across our cloud services, we developed a new central style-guide online with all the design elements engineers needed (and examples of code implementation).</p>"
+     }
+  	},
+ 	 {
+ 		 "name": "Images",
+ 		 "props": {
+ 			 "url": "/static/work/oracle-cloud/styleguide.jpg",
+ 			 "alt": "Oracle Cloud Styleguide"
+ 		 }
+ 	 },
+   {
+     "name": "TextContent",
+     "props": {
+       "content": "<p>Below you can see a few explorations we did as part of our <b>Tiger Team</b> initiative.</p>"
+     }
+  	},
+ 	 {
+ 		 "name": "Images",
+ 		 "props": {
+ 			 "url": "/static/work/oracle-cloud/tiger-team.jpg",
+ 			 "alt": "Oracle Cloud Styleguide"
+ 		 }
+ 	 },
+   {
+     "name": "TextContent",
+     "props": {
+       "content": "<p>You can sign-up for <a href='https://myservices.us.oraclecloud.com/mycloud/signup' target='_blank'>Oracle cloud always free</a> services today.</p>"
+     }
+  	},
+ 	 {
+ 		 "name": "Images",
+ 		 "props": {
+ 			 "url": "/static/work/oracle-cloud/console.jpg",
+ 			 "alt": "Oracle Cloud Console"
+ 		 }
+ 	 }
+	]
+}

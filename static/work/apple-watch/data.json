@@ -1,0 +1,147 @@
+{
+	"work": {
+		"location": "apple-watch",
+    "logo": "/static/work/apple-watch/logo.svg",
+    "description": "Apple Watch try-on campaign survey",
+    "preview": "/static/work/apple-watch/preview.jpg",
+    "background":"/static/work/apple-watch/background.jpg",
+    "color": "black",
+    "text": "white",
+		"url": "https://9to5mac.com/2015/04/15/apple-watch-survey/"
+	},
+	"components": [
+		{
+  		"name": "TextContent",
+  		"props": {
+  			"content": "<h1>Getting feedback about the Apple Watch launch try-on experience</h1><p>Apple is well known by their great products. The Apple Watch is their most personal device, and for its release in 2015 they created a try-on experience implemented in their stores around the world.</p>"
+  		}
+	 	},
+    {
+     "name": "TextContent",
+     "props": {
+       "content": "<p>To help them to better understand if the newly created experience was going to be converted into product sales we decided that we would create a new survey design to capture customer feedback.</p>"
+     }
+  	},
+    {
+     "name": "TextContent",
+     "props": {
+       "content": "<p>Here it is how the customer would receive the invitation to take the survey:</p>"
+     }
+  	},
+    {
+      "name": "TextContent",
+      "props": {
+        "content": "<ol><li>Customer makes an appointment online at Apple.com</li><li>Customer visits a store and try-on the Watch</li><li>A record of his visit is exported to the Survey Application</li><li>After the visit a survey Quickstart* e-mail is sent to the customer</li><li>In the e-mail the customer gives a score for the first question in the survey</li><li>The web browser is activated and the survey flow starts</li></ol><small>*Quickstart = first survey question as part of e-mail template</small>"
+      }
+   	},
+    {
+      "name": "TextContent",
+      "props": {
+        "content": "<p>Differently from the regular Apple survey we wanted to keep the try-on survey small, simple, and engaging. The following is the initial wireframe for the survey:</p>"
+      }
+   	},
+ 	 {
+ 		 "name": "Images",
+ 		 "props": {
+ 			 "url": "/static/work/apple-watch/tryon-flow.jpg",
+ 			 "alt": "Apple Watch Try-on survey flow"
+ 		 }
+ 	 },
+	 {
+		 "name": "TextContent",
+		 "props": {
+			 "content": "<p>We also wanted the survey to look different from the original Apple survey (image below) and carry some of the visual identity created by Apple in their marketing material.</p>"
+		 }
+	 },
+	{
+		"name": "Images",
+		"props": {
+			"url": "/static/work/apple-watch/old-survey.jpg",
+			"alt": "Old Apple Survey"
+		}
+	},
+	{
+		"name": "TextContent",
+		"props": {
+			"content": "<p>This is the final survey design:</p>"
+		}
+	},
+ {
+	 "name": "Images",
+	 "props": {
+		 "url": "/static/work/apple-watch/survey1.jpg",
+		 "alt": "Apple Watch survey welcome screen"
+	 }
+ },
+{
+	"name": "Images",
+	"props": {
+		"url": "/static/work/apple-watch/survey2.jpg",
+		"alt": "Apple watch survey thank you page"
+	}
+},
+{
+	"name": "TextContent",
+	"props": {
+		"content": "<p>Text only version used for the Watch itself (after it became available for sale in stores):</p>"
+	}
+},
+{
+ "name": "Images",
+ "props": {
+	 "url": "/static/work/apple-watch/watch-survey.jpg",
+	 "alt": "Survey running on watch"
+ }
+},
+{
+	"name": "TextContent",
+	"props": {
+		"content": "<p>A few explorations I did at the time:</p>"
+	}
+},
+{
+ "name": "Images",
+ "props": {
+	 "url": "/static/work/apple-watch/survey-alternatives.jpg",
+	 "alt": "Design explorations for survey"
+ }
+},
+{
+	"name": "TextContent",
+	"props": {
+		"content": "<p>Some ideas we had for the project:</p><ol><li>Star rating system</li><li>Picture of Apple Genius that customer would interact with at the store</li><li>Random pictures of the watch</li><li>Show the watch customer tried at the store</li><li>Show Edition (gold) watch for customers that tried that model</li></ol></p>"
+	}
+},
+{
+	"name": "TextContent",
+	"props": {
+		"content": "<p>From the list above only the number #5 made to the final version (image below). There were logistic problems associated with the other ideas that would take us too much time to get them implemented correctly, for that reason we decide to add the ideas to our backlog and move on with the execution.</p>"
+	}
+},
+{
+ "name": "Images",
+ "props": {
+	 "url": "/static/work/apple-watch/survey-versions.jpg",
+	 "alt": "2 different versions depending on model"
+ }
+},
+{
+	"name": "TextContent",
+	"props": {
+		"content": "<p>The project had 2 great outcomes.</p>"
+	}
+},
+{
+	"name": "TextContent",
+	"props": {
+		"content": "<p><b>First</b>, it became the most successful survey in the history of Apple retail in terms of completion rates.</p><p><b>Second</b>, the positive result opened the door for survey innovations at our company.</p>"
+	}
+},
+{
+	"name": "TextContent",
+	"props": {
+		"content": "<p>Before this project I had a very limited view of surveys and how they work, but now I understand the complexity that exists behind a survey creation, branding, delivery, and data management.</p>"
+	}
+}
+	]
+}
