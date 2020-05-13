@@ -3,7 +3,7 @@
     <div class="work-card" :style="backgroundStyles(work.background, work.color, work.text)">
       <div class="card-title">
         <img :src="work.logo" :alt="work.description">
-        <p>{{work.description}}</p>
+        <h2>{{work.description}}</h2>
       </div>
       <div class="card-preview" :style="backgroundStyles(work.preview)"></div>
     </div>
@@ -36,6 +36,12 @@ export default {
 }
 </script>
 <style scoped>
+  .card-title h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    opacity: .6;
+  }
   a {
     text-decoration: none;
     color: black;
@@ -65,9 +71,6 @@ export default {
     flex-direction: column;
     align-items: center;
     transition: all .3s ease-in-out;
-  }
-  .card-title p {
-    opacity: .6;
   }
   .card-preview {
     background-position: center;
