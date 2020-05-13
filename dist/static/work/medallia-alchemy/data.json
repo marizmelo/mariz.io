@@ -1,0 +1,39 @@
+{
+	"work": {
+		"location": "medallia-alchemy",
+    "logo": "/static/work/medallia-alchemy/logo.svg",
+    "description": "Medallia Alchemy Design System",
+    "preview": "/static/work/medallia-alchemy/preview.jpg",
+    "background":"/static/work/medallia-alchemy/background.jpg",
+		"color": "#4050C6",
+    "text": "white",
+		"url": "https://www.medallia.com/platform/"
+	},
+	"components": [
+    {
+     "name": "TextContent",
+     "props": {
+       "content": "<p>One of the most advanced design systems created with focus on user experiences, accessibility, and extensibility.</p>"
+     }
+  	},
+    {
+      "name": "TextContent",
+      "props": {
+        "content": "<ul><li>Responsive by design</li><li>Web and native mobile</li><li>Accessibility baked in</li><li>Powerful data visualizations</li></ul>"
+      }
+   	},
+    {
+      "name": "TextContent",
+      "props": {
+        "content": "<p>I worked together with the design systems team during this initiative creating specs and contributing for the overall look and feel of Medallia’s core customer experience reporting application.</p>"
+      }
+   	},
+		{
+			"name": "Youtube",
+			"props": {
+				"url": "https://www.youtube-nocookie.com/embed/h4G_CV0wSjI",
+				"caption": "Medallia platform"
+			}
+		}
+	]
+}
