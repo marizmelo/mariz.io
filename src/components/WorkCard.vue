@@ -17,10 +17,10 @@ export default {
     activate: Boolean
   },
   data: () => ({
-    logo: "static/marizmelo-logo.svg",
-    description: "Description here",
+    logo: "",
+    description: "",
     background: "",
-    color: "#E5E5E5",
+    color: "",
     preview: "",
     location: ""
   }),
@@ -75,7 +75,6 @@ export default {
     width: 100%;
     max-width: 450px;
     height: 210px;
-    background: #C4C4C4;
     bottom: -190px;
     left: calc(50% - 225px);
     position: absolute;
