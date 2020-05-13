@@ -32,6 +32,7 @@ export default {
     top: 36px;
     right: 48px;
     font-size: 1.25rem;
+    box-sizing: border-box;
   }
   li {
     padding: 12px;
@@ -57,5 +58,24 @@ export default {
     content: "";
     height: 110%;
     border-bottom: 2px solid black;
+  }
+
+  @media screen and (max-width: 480px) {
+    #navigation {
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    ul {
+      position: relative;
+      display: block;
+      right: auto;
+      top: 24px;
+    }
+    li {
+      padding: 12px 0;
+    }
+    a:hover:after {
+      pointer-events: none !important;
+    }
   }
 </style>

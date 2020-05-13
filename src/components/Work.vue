@@ -28,4 +28,10 @@ export default {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  @media screen and (max-width: 960px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 </style>

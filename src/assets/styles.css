@@ -34,3 +34,9 @@ p a {
   font-weight: bold;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 960px) {
+  .mm-container {
+    padding: 0 24px;
+  }
+}

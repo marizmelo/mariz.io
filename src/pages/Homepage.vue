@@ -19,6 +19,9 @@ export default {
 }
 </script>
 <style scoped>
+  .mm-container {
+    height: 360px;
+  }
   .role_1 {
     animation: role1;
   }
@@ -76,6 +79,15 @@ export default {
     }
     50% {
       opacity: 1;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .mm-container {
+      height: 200px;
+    }
+    h1 {
+      font-size: 160%;
     }
   }
 </style>

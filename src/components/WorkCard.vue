@@ -41,6 +41,8 @@ export default {
     font-weight: 400;
     font-size: 1em;
     opacity: .6;
+    text-align: center;
+    line-height: 1.6em;
   }
   a {
     text-decoration: none;
@@ -65,12 +67,11 @@ export default {
     background-size: cover;
   }
   .card-title {
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    display: block;
     margin-top: 20px;
-    flex-direction: column;
-    align-items: center;
     transition: all .3s ease-in-out;
+    text-align: center;
   }
   .card-preview {
     background-position: center;
@@ -78,21 +79,38 @@ export default {
     width: 100%;
     max-width: 450px;
     height: 210px;
-    bottom: -190px;
-    left: calc(50% - 225px);
-    position: absolute;
+    bottom: -332px;
+    position: relative;
     transition: all .3s  ease-in-out;
   }
   .work-card-container:hover .card-title, .work-card-container:focus .card-title, .work-card-container.active .card-title {
-    margin-top: -100px;
+    margin-top: -44px;
   }
   .work-card-container:hover .card-preview, .work-card-container:focus .card-preview, .work-card-container.active .card-preview {
-    bottom: 0;
+    bottom: -150px;
   }
   .work-card-container.active {
     cursor: default;
   }
   .work-card-container.active .work-card {
     margin: 0;
+  }
+
+  @media screen and (max-width: 960px) {
+      .work-card {
+        margin: 10px 0;
+        padding: 24px;
+      }
+      .card-preview {
+        background-size: 100%;
+        left: 0;
+        margin: 0 auto;
+      }
+  }
+
+  @media screen and (max-width: 480px) {
+    .card-title img {
+      max-width: 80%;
+    }
   }
 </style>

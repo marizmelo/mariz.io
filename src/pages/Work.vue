@@ -44,6 +44,7 @@ export default {
 </script>
 <style scoped>
   .link {
+    display: inline;
     position: absolute;
     z-index: 10;
     background: white;
@@ -63,5 +64,14 @@ export default {
   }
   .mm-header {
     max-width: 1280px;
+  }
+
+  @media screen and (max-width: 480px) {
+    .link {
+      left: auto;
+      right: auto;
+      margin: 0 auto;
+      top: 44px;
+    }
   }
 </style>
