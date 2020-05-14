@@ -29,7 +29,7 @@
     "logo": "/static/work/medallia-voices/logo.svg",
     "description": "The voice of customers in the palm of your hands",
     "preview": "/static/work/medallia-voices/preview.jpg",
-    "background":"/static/work/medallia-voices/background.jpg",
+    "background":"",
     "color": "#1D2C99",
     "text": "white"
   },
@@ -38,7 +38,7 @@
     "logo": "/static/work/medallia-alchemy/logo.svg",
     "description": "Medallia Experience Cloud advanced Design System",
     "preview": "/static/work/medallia-alchemy/preview.jpg",
-    "background":"/static/work/medallia-alchemy/background.jpg",
+    "background":"",
     "color": "#4050C6",
     "text": "white"
   },
@@ -47,7 +47,7 @@
     "logo": "/static/work/apple-watch/logo.svg",
     "description": "Apple Watch try-on campaign survey",
     "preview": "/static/work/apple-watch/preview.jpg",
-    "background":"/static/work/apple-watch/background.jpg",
+    "background":"",
     "color": "black",
     "text": "white"
   }
