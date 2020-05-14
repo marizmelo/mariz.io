@@ -78,6 +78,7 @@ export default {
     margin-top: 20px;
     transition: all .3s ease-in-out;
     text-align: center;
+    z-index: 100;
   }
   .card-preview {
     background-position: center;
@@ -105,7 +106,6 @@ export default {
   @media screen and (max-width: 960px) {
       .work-card {
         margin: 10px 0;
-        padding: 24px;
       }
       .card-preview {
         background-size: 100%;
