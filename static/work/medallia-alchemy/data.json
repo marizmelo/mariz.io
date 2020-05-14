@@ -4,7 +4,7 @@
     "logo": "/static/work/medallia-alchemy/logo.svg",
     "description": "Medallia Alchemy Design System",
     "preview": "/static/work/medallia-alchemy/preview.jpg",
-    "background":"/static/work/medallia-alchemy/background.jpg",
+    "background":"",
 		"color": "#4050C6",
     "text": "white",
 		"url": "https://www.medallia.com/platform/"

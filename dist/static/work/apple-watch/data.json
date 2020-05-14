@@ -4,7 +4,7 @@
     "logo": "/static/work/apple-watch/logo.svg",
     "description": "Apple Watch try-on campaign survey",
     "preview": "/static/work/apple-watch/preview.jpg",
-    "background":"/static/work/apple-watch/background.jpg",
+    "background":"",
     "color": "black",
     "text": "white",
 		"url": "https://9to5mac.com/2015/04/15/apple-watch-survey/"

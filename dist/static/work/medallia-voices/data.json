@@ -4,7 +4,7 @@
     "logo": "/static/work/medallia-voices/logo.svg",
     "description": "The voice of customers in the palm of your hands",
     "preview": "/static/work/medallia-voices/preview.jpg",
-    "background":"/static/work/medallia-voices/background.jpg",
+    "background":"",
     "color": "#1D2C99",
     "text": "white",
 		"url": "https://www.medallia.com/platform/voices/"
