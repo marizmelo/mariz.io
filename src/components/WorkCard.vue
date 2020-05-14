@@ -26,11 +26,17 @@ export default {
   }),
   methods: {
     backgroundStyles(image, color, text) {
-      return {
-        'background-image': `url(${image})`,
+
+      let bg = {
         'background-color': `${color}`,
         'color': `${text}`
       }
+
+      if (image) {
+        bg['background-image'] = `url(${image})`
+      }
+
+      return bg
     }
   }
 }
