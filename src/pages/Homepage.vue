@@ -84,10 +84,11 @@ export default {
 
   @media screen and (max-width: 480px) {
     .mm-container {
-      height: 200px;
+      height: 100px;
     }
     h1 {
       font-size: 160%;
+      padding: 30px 0;
     }
   }
 </style>
