@@ -56,6 +56,15 @@ export default {
     color: black;
     text-decoration: none;
   }
+  .link::after {
+    content: url("/static/icons/icon-external.svg");
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-top: 3px;
+    display: inline-block;
+  }
   .spacer {
    padding: 16px 0;
   }
