@@ -118,5 +118,11 @@ export default {
     .card-title img {
       max-width: 80%;
     }
+    .work-card-container .card-title {
+      margin-top: -44px !important;
+    }
+    .work-card-container .card-preview {
+      bottom: -150px !important;
+    }
   }
 </style>
