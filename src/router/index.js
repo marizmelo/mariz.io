@@ -17,6 +17,11 @@ export default new Router({
       path: '/work/:id',
       name: 'Work',
       component: Work
+    },
+    {
+      path: '/*',
+      name: 'Not found',
+      component: Homepage
     }
   ],
   scrollBehavior (to, from, savedPosition) {
