@@ -46,7 +46,7 @@ export default {
   .link {
     display: inline;
     position: absolute;
-    z-index: 10;
+    z-index: 1000;
     background: white;
     padding: 8px 16px;
     border-radius: 100px;
