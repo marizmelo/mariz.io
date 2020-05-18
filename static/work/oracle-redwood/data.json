@@ -26,7 +26,7 @@
    {
      "name": "TextContent",
      "props": {
-       "content": "<p>It was fun develop Oracle’s first design wireframe toolkit during this project. Before we even knew how the design system components would look visually, designers could create mockups for applications and get feedback for their interaction designs.</p><p>Once the visual design was created, designers could convert their wireframes into high definition composition with a click of a button.</p>"
+       "content": "<p>It was fun develop Oracle’s first design wireframe toolkit during this project. Before we even knew how the design system components would look visually, designers could create mockups for applications and get feedback for their early designs.</p><p>Once the visual design was created, designers could convert their wireframes into high definition composition with a click of a button.</p>"
      }
   	},
     {
@@ -39,7 +39,7 @@
 		{
 			"name": "TextContent",
 			"props": {
-				"content": "<p>We showcased a sneak peek video of Redwood at our <a href='https://design.oracle.com' target='_blank'>design.oracle.com</a> website. It was also a good opportunity to talk a little bit about our design team at Oracle and to expose our career opportunities.</p>"
+				"content": "<p>We showcased a sneak peek video of Redwood at our <a href='https://design.oracle.com' target='_blank'>design.oracle.com</a> website. It was also a good opportunity to talk a little bit about our design team, culture at Oracle, and to list our career opportunities.</p>"
 			}
 	 },
 	 {

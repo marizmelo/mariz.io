@@ -51,7 +51,7 @@
 		{
 			"name": "TextContent",
 			"props": {
-				"content": "<p>During phase 2 we explored different visual design styles for the website. It took us a couple of months to land on the current design. We had many meetings with product owners and marketing teams about reducing the content of pages, we had hard conversations, but at the end we arrived on a solution that focus on the 3 important things for the company (Cloud, Applications, and our new culture).</p>"
+				"content": "<p>During phase 2 we explored different visual design styles for the website. It took us a couple of months to land on the current design. We had many meetings with product owners and marketing teams about reducing the content of pages, we had hard conversations, but at the end we arrived on a solution that focus on the 3 most important things for the company (Cloud infrastructure, Cloud Applications, and everything Oracle).</p>"
 			}
 	 },
    {
@@ -64,7 +64,7 @@
 	 {
 		 "name": "TextContent",
 		 "props": {
-			 "content": "<p>I worked with website development before, but never at a global scale like this one. It was a unique experience and I am proud of our team for taking the challenge.</p>"
+			 "content": "<p>I worked with website development before, but never at this level of global scale and complexity. It was an unique experience and I am proud of our team for taking the challenge.</p>"
 		 }
 	}
 	]
