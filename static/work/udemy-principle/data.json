@@ -13,8 +13,14 @@
     {
   		"name": "TextContent",
   		"props": {
-  			"content": "<p><b>Principle for mac</b> is an amazing little application for Macintosh computers that help designers create animated prototypes in a blink of an eye. The intuitive interface is a great way to rapidly test and get validation on early ideas.</p><p><a href='https://www.udemy.com/course/principle-realistic-animations-prototypes' target='_blank'>Principle - Realistic Animations & Prototypes Course</a></p>"
+  			"content": "<p><b>Principle for mac</b> is an amazing little application for Macintosh computers that help designers create animated prototypes in a blink of an eye. The intuitive interface is a great way to rapidly test and get validation on early ideas.</p>"
   		}
+	 },
+	 {
+		 "name": "TextContent",
+		 "props": {
+			 "content": "<p><a href='https://www.udemy.com/course/principle-realistic-animations-prototypes' target='_blank'>Principle - Realistic Animations & Prototypes Course</a></p>"
+		 }
 	 },
    {
      "name": "TextContent",
