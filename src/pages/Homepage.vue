@@ -1,7 +1,7 @@
 <template>
   <div id="homepage">
     <div class="mm-container">
-      <h1>Hello! I’m <b>Mariz Melo</b> <span class="role_1">, a product designer</span><span class="role_2">, a systems thinker</span></h1>
+      <h1>Hello! I’m <b>Mariz</b> <span class="role_1">, a product designer</span><span class="role_2">, a systems thinker</span></h1>
     </div>
     <Work/>
   </div>
