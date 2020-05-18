@@ -1,7 +1,7 @@
 <template>
   <div id="homepage">
     <div class="mm-container">
-      <h1>Hello! I’m <b>Mariz</b> <span class="role_1">, a product designer</span><span class="role_2">, a systems thinker</span></h1>
+      <h1>Hello! I’m <b>Mariz</b> <span class="role_1">, a design leader</span><span class="role_2">, a systems thinker</span></h1>
     </div>
     <Work/>
   </div>
@@ -70,7 +70,7 @@ export default {
       width: 0;
     }
     10%, 40% {
-      width: 8.3em;
+      width: 7em;
     }
   }
   @keyframes caret {
