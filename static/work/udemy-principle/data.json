@@ -1,0 +1,39 @@
+{
+	"work": {
+		"location": "udemy-principle",
+    "logo": "/static/work/udemy-principle/logo.png",
+    "description": "Principle - Realistic Animations & Prototypes Course",
+    "preview": "/static/work/udemy-principle/preview.jpg",
+    "background":"/static/work/udemy-principle/background.jpg",
+    "color": "#3C2D5C",
+    "text": "white",
+		"url": "https://www.udemy.com/course/principle-realistic-animations-prototypes"
+	},
+	"components": [
+    {
+  		"name": "TextContent",
+  		"props": {
+  			"content": "<p><b>Principle for mac</b> is an amazing little application for Macintosh computers that help designers create animated prototypes in a blink of an eye. The intuitive interface is a great way to rapidly test and get validation on early ideas.</p><p><a href='https://www.udemy.com/course/principle-realistic-animations-prototypes' target='_blank'>Principle - Realistic Animations & Prototypes Course</a></p>"
+  		}
+	 },
+   {
+     "name": "TextContent",
+     "props": {
+       "content": "<p>Here is what you will learn during this 9 hours course:</p><p><b>Basics</b><br>Interface overview, grouping, masks, basic elements, importing assets from Sketch and Figma.</p><p><b>Animation</b><br>Events and transitions, angles and circular animations, scrolling content, animations drivers, pagination, parallax effects, and more.</p><p><b>Components</b><br>How to use components to scale your projects. Learn how to create different kind of reusable components.</p><p><b>PROJECT: YummyYucky app</b><br>Put what you learn in practice developing your first mobile app in Principle. The YummyYucky app is a tinder like application that let users select food that they like and food they don’t like.</p><p><b>PROJECT: Moviegoer</b><br>This is a more advanced application we will develop from scratch using all techniques learned during the course. Let users login into your app, view list of movie suggestions, bookmark their favorites, and watch a movie preview inside your app.</p><p><b>Sharing your prototypes</b><br>It is time to show your work to the world. In this section we explore the different ways you can do that. Share as a image, video, Mac native application, or to a mobile device using Principle Mirror.</p>"
+     }
+  	},
+ 	 {
+ 		 "name": "Images",
+ 		 "props": {
+ 			 "url": "/static/work/udemy-principle/principle-course-preview.jpg",
+ 			 "alt": "Principle - Realistic Animations & Prototypes"
+ 		 }
+ 	 },
+	 {
+		 "name": "TextContent",
+		 "props": {
+			 "content": "<p>This was my first time teaching something online. It took me around 1 month to put all the material and videos together. The course is available on the Udemy learning platform <a href='https://www.udemy.com/course/principle-realistic-animations-prototypes' target=''>here</a>.</p>"
+		 }
+	}
+	]
+}

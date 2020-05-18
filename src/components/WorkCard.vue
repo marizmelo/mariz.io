@@ -85,6 +85,9 @@ export default {
     text-align: center;
     z-index: 100;
   }
+  .card-title img {
+    max-height: 60px;
+  }
   .card-preview {
     background-position: center;
     background-size: cover !important;
