@@ -22,6 +22,14 @@
 			 "content": "<p><a href='https://www.udemy.com/course/principle-realistic-animations-prototypes' target='_blank'>Principle - Realistic Animations & Prototypes Course</a></p>"
 		 }
 	 },
+	 {
+		 "name": "Youtube",
+		 "props": {
+			 "url": "https://www.youtube-nocookie.com/embed/UVndAHvSsY8",
+			 "caption": "Principle Course Intro Video"
+		 }
+	 },
+
    {
      "name": "TextContent",
      "props": {
