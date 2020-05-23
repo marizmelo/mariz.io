@@ -25,7 +25,7 @@
     {
       "name": "TextContent",
       "props": {
-        "content": "<p>Devplayground is an open source project hosted on Github.</p>"
+        "content": "<p>Devplayground is an open source project hosted on <a href='https://github.com/marizmelo/devplayground' target='_blank'>Github</a>.</p>"
       }
    	},
     {
