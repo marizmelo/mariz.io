@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import firebase from 'firebase/app'
+import '@/firebase/init'
 
 Vue.use(VueAxios, axios)
 
