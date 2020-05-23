@@ -1,5 +1,14 @@
 [
   {
+    "location": "devplayground",
+    "logo": "/static/work/devplayground/logo.svg",
+    "description": "Code Together",
+    "preview": "/static/work/devplayground/preview.jpg",
+    "background":"",
+		"color": "#000000",
+    "text": "white"
+  },
+  {
     "location": "oracle-com",
     "logo": "/static/work/oracle-com/logo.svg",
     "description": "Oracle corporate website",
@@ -31,8 +40,7 @@
     "preview": "/static/work/udemy-principle/preview.jpg",
     "background":"/static/work/udemy-principle/background.jpg",
     "color": "#3C2D5C",
-    "text": "white",
-		"url": "https://www.udemy.com/course/principle-realistic-animations-prototypes"
+    "text": "white"
   },
   {
     "location": "medallia-voices",

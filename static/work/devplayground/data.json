@@ -1,0 +1,51 @@
+{
+	"work": {
+		"location": "devplayground",
+    "logo": "/static/work/devplayground/logo.svg",
+    "description": "Code Together",
+    "preview": "/static/work/devplayground/preview.jpg",
+    "background":"",
+		"color": "#000000",
+    "text": "white",
+		"url": "https://devplayground.io"
+	},
+	"components": [
+    {
+     "name": "TextContent",
+     "props": {
+       "content": "<p>Side project during the COVID-19 pandemic.</p>"
+     }
+  	},
+    {
+      "name": "TextContent",
+      "props": {
+        "content": "<p>I was looking into a simple way to test HTML/CSS/JS code that would not require me to sign-up or commmit to anything. <a href='https://devplayground' target='_blank'>Devplayground.io</a> let you quickly code and share that code with others for real-time feedback.</p>"
+      }
+   	},
+    {
+      "name": "TextContent",
+      "props": {
+        "content": "<p>Devplayground is an open source project hosted on Github.</p>"
+      }
+   	},
+    {
+      "name": "TextContent",
+      "props": {
+        "content": "<p>You can also install a <a href='https://github.com/marizmelo/devplayground-chrome' target='_blank'>Chrome Extension</a> for quick access by pressing a button on your browser toolbar. Watch the video below for instructions on how to install the extension yourself.</p>"
+      }
+   	},
+    {
+      "name": "TextContent",
+      "props": {
+        "content": "<p>Enjoy and start coding.</p>"
+      }
+   	},
+		{
+			"name": "Youtube",
+			"props": {
+				"url": "https://www.youtube-nocookie.com/embed/Tv_kEOwWd-4",
+				"caption": "Installing Devplayground Chrome Extension"
+			}
+		}
+	]
+}
