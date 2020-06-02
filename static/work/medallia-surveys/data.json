@@ -1,0 +1,100 @@
+{
+	"work": {
+		"location": "medallia-surveys",
+    "logo": "/static/work/medallia-surveys/logo.svg",
+    "description": "Modern Surveys based on a micro Design System",
+    "preview": "/static/work/medallia-surveys/preview.jpg",
+    "background":"",
+    "color": "#17205D",
+    "text": "white",
+		"url": "https://vimeo.com/228120619"
+	},
+	"components": [
+    {
+     "name": "TextContent",
+     "props": {
+       "content": "<p>Surveys are one of the cornerstones of the Medallia platform, it was the first method to capture feedback for the company and continue to be an important offering in the product.</p>"
+     }
+  	},
+		{
+     "name": "TextContent",
+     "props": {
+       "content": "<p>Unfortunately, the Medallia surveys did not look very good and used different technologies between desktop and mobile devices.</p>"
+     }
+  	},
+		{
+		 "name": "Images",
+		 "props": {
+			 "url": "/static/work/medallia-surveys/desktopvsmobile.jpg",
+			 "alt": "Original Medallia survey look and feel."
+		 }
+	 	},
+		{
+     "name": "TextContent",
+     "props": {
+       "content": "<p>My task was to create a new look and feel for the <a href='https://mariz.io/work/apple-watch#/work/apple-watch'>Apple try-on experience survey</a>, but Apple was not happy with their existing survey look and feel and wanted to have a custom made solution for the watch release.</p>"
+     }
+  	},
+		{
+     "name": "TextContent",
+     "props": {
+       "content": "<p>The problem was that the original survey did not allow us to have too much customization and branding associated with it.</p>"
+     }
+  	},
+		{
+     "name": "TextContent",
+     "props": {
+       "content": "<p>The solution I found was a little application called <b>Middleman</b>. This customized script would sit in front of the original survey stying and completely replaced it with a custom set of styles. It worked, but as you can imagine performance suffered.</p>"
+     }
+  	},
+		{
+     "name": "TextContent",
+     "props": {
+       "content": "<p>The company was stunned by the reponse rate during the Apple program and decided to invest and revisit the survey platform.</p>"
+     }
+  	},
+		{
+     "name": "TextContent",
+     "props": {
+       "content": "<p>I was in charge of creating the new customizable look and feel for the surveys. At the time we were a small team of 1 designer, 1 project manager, and 3 developers.</p>"
+     }
+  	},
+		{
+     "name": "TextContent",
+     "props": {
+       "content": "<p>At the same time, this initiative kicked off I was also attending a few events about this new thing called \"Design Systems\". I remember attending the first Clarity design conference and learning about the benefits of a design system for enterprises from the original design team behind the lightning design system from Salesforce.</p>"
+     }
+  	},
+    {
+      "name": "TextContent",
+      "props": {
+        "content": "<p>These were our design principles:</p><ul><li>Accessible</li><li>Scalable</li><li>Customizable</li><li>Beautiful</li></ul>"
+      }
+   	},
+    {
+      "name": "TextContent",
+      "props": {
+        "content": "<p>Companies wanted to bring their brand to our surveys and the new design allow them to do that much easier than before. The component system created during this initiative allowed the company to provide a controlled set of templates that covered 80% of the requests and made the remaining 20% much easier to handle by our services team.</p>"
+      }
+   	},
+		{
+		 "name": "Images",
+		 "props": {
+			 "url": "/static/work/medallia-surveys/newsurveys.jpg",
+			 "alt": "New Medallia Survey look and feel."
+		 }
+	 	},
+    {
+      "name": "TextContent",
+      "props": {
+        "content": "<p>We also made sure that the <b>survey builder</b> application was ready to support all new customization from the new surveys.</p>"
+      }
+   	},
+    {
+      "name": "TextContent",
+      "props": {
+        "content": "<p>Medallia now has a scalable survey platform that uses the same technology across desktop, mobiles, and e-mail platforms that are also <a href='https://developer.mozilla.org/en-US/docs/Web/Accessibility' target='_blank'>AY11</a> compliant by default.</p>"
+      }
+   	}
+	]
+}
