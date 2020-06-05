@@ -103,4 +103,7 @@ export default {
       padding: 30px 0;
     }
   }
+  .announcements {
+    margin-top: 44px;
+  }
 </style>
