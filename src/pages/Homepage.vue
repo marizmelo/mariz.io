@@ -3,11 +3,9 @@
     <div class="mm-container title">
       <h1>Hello! I’m <b>Mariz</b> <span class="role_1">, a design leader</span><span class="role_2">, a systems thinker</span></h1>
     </div>
-    <!-- <div class="mm-container announcements">
-      <router-link :to="'/work/medallia-surveys'">
-        <b>NEW:</b> Medallia Surveys work added
-      </router-link>
-    </div> -->
+    <div class="mm-container announcements">
+        <b>#BlackLivesMatter</b>
+    </div>
     <Work/>
   </div>
 </template>
@@ -23,6 +21,12 @@ export default {
   })
 }
 </script>
+<style media="screen">
+  body {
+    background: black;
+    color: white;
+  }
+</style>
 <style scoped>
   .announcements a {
     text-decoration: none;

@@ -13,7 +13,7 @@
     "description": "Code Together",
     "preview": "/static/work/devplayground/preview.jpg",
     "background":"",
-		"color": "#000000",
+		"color": "#262626",
     "text": "white"
   },
   {
@@ -83,7 +83,7 @@
     "description": "Apple Watch try-on campaign survey",
     "preview": "/static/work/apple-watch/preview.jpg",
     "background":"",
-    "color": "black",
+    "color": "#262626",
     "text": "white"
   }
 ]
