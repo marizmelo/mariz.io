@@ -1,5 +1,13 @@
 [
   {
+    "location": "moviegoer",
+    "logo": "/static/work/moviegoer/logo.svg",
+    "description": "Movies and TV shows suggestions from your favorite celebrities",
+    "preview": "/static/work/moviegoer/preview.jpg",
+    "background":"",
+		"color": "#6AD77B"
+  },
+  {
     "location": "devplayground",
     "logo": "/static/work/devplayground/logo.svg",
     "description": "Code Together",

@@ -3,11 +3,11 @@
     <div class="mm-container title">
       <h1>Hello! I’m <b>Mariz</b> <span class="role_1">, a design leader</span><span class="role_2">, a systems thinker</span></h1>
     </div>
-    <div class="mm-container announcements">
+    <!-- <div class="mm-container announcements">
       <router-link :to="'/work/medallia-surveys'">
         <b>NEW:</b> Medallia Surveys work added
       </router-link>
-    </div>
+    </div> -->
     <Work/>
   </div>
 </template>
