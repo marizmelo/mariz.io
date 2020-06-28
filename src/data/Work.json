@@ -1,22 +1,5 @@
 [
   {
-    "location": "moviegoer",
-    "logo": "/static/work/moviegoer/logo.svg",
-    "description": "Movies and TV shows suggestions from your favorite celebrities",
-    "preview": "/static/work/moviegoer/preview.jpg",
-    "background":"",
-		"color": "#6AD77B"
-  },
-  {
-    "location": "devplayground",
-    "logo": "/static/work/devplayground/logo.svg",
-    "description": "Code Together",
-    "preview": "/static/work/devplayground/preview.jpg",
-    "background":"",
-		"color": "#262626",
-    "text": "white"
-  },
-  {
     "location": "oracle-com",
     "logo": "/static/work/oracle-com/logo.svg",
     "description": "Oracle corporate website",
@@ -84,6 +67,23 @@
     "preview": "/static/work/apple-watch/preview.jpg",
     "background":"",
     "color": "#262626",
+    "text": "white"
+  },
+  {
+    "location": "moviegoer",
+    "logo": "/static/work/moviegoer/logo.svg",
+    "description": "Movies and TV shows suggestions from your favorite celebrities",
+    "preview": "/static/work/moviegoer/preview.jpg",
+    "background":"",
+		"color": "#6AD77B"
+  },
+  {
+    "location": "devplayground",
+    "logo": "/static/work/devplayground/logo.svg",
+    "description": "Code Together",
+    "preview": "/static/work/devplayground/preview.jpg",
+    "background":"",
+		"color": "#262626",
     "text": "white"
   }
 ]
