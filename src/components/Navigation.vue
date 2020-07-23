@@ -1,7 +1,7 @@
 <template>
   <nav id="navigation" class="mm-container">
     <div>
-      <img src="/static/marizmelo-logo-white.svg">
+      <img src="/static/marizmelo-logo.svg">
       <ul>
         <li><router-link to="/">Work</router-link></li>
         <li><a href="/static/mariz.pdf" target="_blank">Get in touch</a></li>
@@ -40,7 +40,6 @@ export default {
     outline: none;
     display: inline-block;
     position: relative;
-    color: white;
     text-decoration: none;
   }
   a::after {
@@ -50,13 +49,13 @@ export default {
     left: 0;
     width: 100%;
     height: 95%;
-    border-bottom: 2px solid black; /* bug on safari for transparent, investigate later, this does not scale */
+    border-bottom: 2px solid white; /* bug on safari for transparent, investigate later, this does not scale */
     transition: all .2s ease-in-out;
   }
   a:hover:after, a:focus:after {
     content: "";
     height: 110%;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
   }
 
   @media screen and (max-width: 480px) {

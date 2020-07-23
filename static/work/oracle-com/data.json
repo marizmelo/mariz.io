@@ -12,7 +12,7 @@
     {
   		"name": "TextContent",
   		"props": {
-  			"content": "<p>In the process to create a new identity for the Oracle brand (<a href='/work/oracle-redwood'>read about Redwood here</a>) we knew that the iconic Oracle website would be a way for us to make a statement within the company and with our customers. Things were about to change.</p><p> The first thing we did was to identify all the different websites and their owners(anyone that could help us understand the purpose and function of those websites).We invited all of them to join us at our Redwood city conference center for a week long workshop.</p>"
+  			"content": "<p>In the process to create a new identity for the Oracle brand (<a href='/work/oracle-redwood'>read about Redwood here</a>) we knew that the iconic Oracle website would be a way for us to make a statement within the company and with our customers. Things were about to change.</p><p> The first thing we did was to identify all the different websites and their owners(anyone that could help us understand the purpose and function of those websites). We invited all of them to join us at our Redwood city conference center for a week-long workshop.</p>"
   		}
 	 },
    {
@@ -25,7 +25,7 @@
    {
      "name": "TextContent",
      "props": {
-       "content": "<p>We had a good time discussing common themes and getting to know each other. Each table became a group and each group should propose solutions for common challenges across the company. I remember being in the group trying to solve how we could migrate current on-premises customers to the cloud in a shorter amount of time.</p>"
+       "content": "<p>The team had a good time discussing common themes and getting to know each other. Each table became a group and each group should propose solutions for common challenges across the company. I remember being in the group trying to solve how we could migrate current on-premises customers to the cloud in a shorter amount of time.</p>"
      }
    },
    {
@@ -38,7 +38,7 @@
    {
      "name": "TextContent",
      "props": {
-       "content": "<p>After the event we synthesized all the information we had collected from our workshop into a deck shared with all the participants laying out our strategy moving forward.</p><p>We divided the project into <b>2 phases</b>.</p><p>During phase 1 we did an assessment of the existing website and its “branches” (not owned by the core team). We also took a look over our information architecture and found a few inconsistencies along the way. We had too many websites and at times the content on those also overlapped.</p><p>We decide to unify our cloud website (cloud.oracle.com) with our company website (listing applications and solutions).</p><p>We also realized that we would not have time to change everything, that is when we created the <b>Oracle Redwood Light migration</b> guide. The guide contained changes for basic design tokens (colors, typography, layout) and nothing more.</p>"
+       "content": "<p>After the event, we synthesized all the information we had collected from our workshop into a deck shared with all the participants laying out our strategy moving forward.</p><p>We divided the project into <b>2 phases</b>.</p><p>During phase 1 we assessedthe existing website and its “branches” (not owned by the core team). We also took a look over our information architecture and found a few inconsistencies along the way. We had too many websites and at times the content on those also overlapped.</p><p>We decide to unify our cloud website (cloud.oracle.com) with our company website (listing applications and solutions).</p><p>We also realized that we would not have time to change everything, that is when we created the <b>Oracle Redwood Light migration</b> guide. The guide contained changes for basic design tokens (colors, typography, layout) and nothing more.</p>"
      }
   	},
 		{
@@ -51,7 +51,7 @@
 		{
 			"name": "TextContent",
 			"props": {
-				"content": "<p>During phase 2 we explored different visual design styles for the website. It took us a couple of months to land on the current design. We had many meetings with product owners and marketing teams about reducing the content of pages, we had hard conversations, but at the end we arrived on a solution that focus on the 3 most important things for the company (Cloud infrastructure, Cloud Applications, and everything Oracle).</p>"
+				"content": "<p>During phase 2 we explored different visual design styles for the website. It took us a couple of months to land on the current design. We had many meetings with product owners and marketing teams about reducing the content of pages, we had hard conversations, but at the end, we arrived on a solution that focuses on the 3 most important things for the company (Cloud infrastructure, Cloud Applications, and everything Oracle).</p>"
 			}
 	 },
    {
@@ -64,7 +64,7 @@
 	 {
 		 "name": "TextContent",
 		 "props": {
-			 "content": "<p>I worked with website development before, but never at this level of global scale and complexity. It was an unique experience and I am proud of our team for taking the challenge.</p>"
+			 "content": "<p>I worked with website development before, but never at this level of global scale and complexity. It was a unique experience and I am proud of our team for taking the challenge.</p>"
 		 }
 	}
 	]

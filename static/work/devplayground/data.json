@@ -19,13 +19,13 @@
     {
       "name": "TextContent",
       "props": {
-        "content": "<p>I was looking into a simple way to test HTML/CSS/JS code that would not require me to sign-up or commmit to anything. <a href='https://devplayground' target='_blank'>Devplayground.io</a> let you quickly code and share that code with others for real-time feedback.</p>"
+        "content": "<p>I was looking into a simple way to test HTML/CSS/JS code that would not require me to sign-up or commit to anything. <a href='https://devplayground' target='_blank'>Devplayground.io</a> lets you quickly code and share that code with others for real-time feedback.</p>"
       }
    	},
     {
       "name": "TextContent",
       "props": {
-        "content": "<p>Devplayground is an open source project hosted on <a href='https://github.com/marizmelo/devplayground' target='_blank'>Github</a>.</p>"
+        "content": "<p>Devplayground is an open-source project hosted on <a href='https://github.com/marizmelo/devplayground' target='_blank'>Github</a>.</p>"
       }
    	},
     {

@@ -25,7 +25,7 @@
     {
       "name": "TextContent",
       "props": {
-        "content": "<p><b>PROBLEM WE WERE TRYING TO SOLVE</b><p>Executive feedback: \"I feel out of touch with the true voice of my customer.  Everything I read is somehow modified, aggregated, depersonalized. I want to really know what’s going on with my customers.\"</p>"
+        "content": "<p><b>PROBLEM WE WERE TRYING TO SOLVE</b><p>Executive feedback: \"I feel out of touch with the true voice of my customer.  Everything I read is somehow modified, aggregated, depersonalized. I want to know what’s going on with my customers.\"</p>"
       }
    	},
     {
@@ -44,7 +44,7 @@
    {
      "name": "TextContent",
      "props": {
-       "content": "<p>We named our project <b>Macaron</b> (after an initial confusion with the name macaroon) because we would provide snack-able size information to executives, something they could actually digest and get important insights from.</p><p>First task was to bring the entire core team together. Our team was composed by 2 designers, 1 prototype designer, 1 product manager, and 1 engineer.  We found a corner space in the office that would become our \"War Zone\".</p>"
+       "content": "<p>We named our project <b>Macaron</b> (after an initial confusion with the name macaroon) because we would provide snack-able size information to executives, something they could digest and get important insights from.</p><p>The first task was to bring the entire core team together. Our team was composed of 2 designers, 1 prototype designer, 1 product manager, and 1 engineer.  We found a corner space in the office that would become our \"War Zone\".</p>"
      }
   	},
    {
@@ -69,7 +69,7 @@
    {
      "name": "TextContent",
      "props": {
-       "content": "<p>We did few interviews with some executives and with our internal teams that deal with executives to better understand the problem we had in our hands. We created some user scenarios based on the feedback.</p>"
+       "content": "<p>We did a few interviews with some executives and with our internal teams that deal with executives to better understand the problem we had in our hands. We created some user scenarios based on the feedback.</p>"
      }
   	},
  	 {
@@ -95,7 +95,7 @@
 	 {
 		 "name": "TextContent",
 		 "props": {
-			 "content": "<p>Time to narrow down the ideas to 3 and create a small storyboard flow for each of them. After we were done sketching, each of us got 5 green stickers to vote on the ideas we liked more, including our own ideas.</p>"
+			 "content": "<p>Time to narrow down the ideas to 3 and create a small storyboard flow for each of them. After we were done sketching, each of us got 5 green stickers to vote on the ideas we liked more, including our ideas.</p>"
 		 }
 	 },
 	{
@@ -114,7 +114,7 @@
 	{
 		"name": "TextContent",
 		"props": {
-			"content": "<p><b>Feedback Driven</b><br>- Prominent voice of the customer driving data</p><p><b>Data and Insights Driven</b><br>- Data would unveil voice of customer</p>"
+			"content": "<p><b>Feedback Driven</b><br>- A prominent voice of the customer driving data</p><p><b>Data and Insights Driven</b><br>- Data would unveil the voice of the customer</p>"
 		}
 	},
 	{
@@ -152,7 +152,7 @@
 {
 	"name": "TextContent",
 	"props": {
-		"content": "<p><b>DAYS 7:</b> Validation</p><p>This day was used to get validation about our process and concepts. We invited all the stakeholders and expose them to the concepts and the prototypes.</p><p>At the end we decided to pursue the \"Feedback Driven\" concept because it felt more engaging than a model using dashboards and numbers. We decided to name the concept <b>Medallia Voices</b> (the name was right in front of us, love when this things just make sense).</p>"
+		"content": "<p><b>DAYS 7:</b> Validation</p><p>This day was used to get validation about our process and concepts. We invited all the stakeholders and expose them to the concepts and the prototypes.</p><p>In the end we decided to pursue the \"Feedback Driven\" concept because it felt more engaging than a model using dashboards and numbers. We decided to name the concept <b>Medallia Voices</b> (the name was right in front of us, love when these things just make sense).</p>"
 	}
 },
 {
@@ -171,13 +171,13 @@
 {
 	"name": "TextContent",
 	"props": {
-		"content": "<p><b>Cards, Wildcards, and Done Card</b></p><p>One of the patterns used in Voices is the <a href='https://www.smashingmagazine.com/2016/10/designing-card-based-user-interfaces/' target='_blank'>card based ui</a>. Executives don't have much time to go over reports, but can spare a few minutes to browse a set of tailored feedback. During this sprint we expanded that concept to incorporate the idea of Wildcards, a special kind of card which would contain insights about the company. Here are a few things a Wildcard could do:</p>"
+		"content": "<p><b>Cards, Wildcards, and Done Card</b></p><p>One of the patterns used in Voices is the <a href='https://www.smashingmagazine.com/2016/10/designing-card-based-user-interfaces/' target='_blank'>card-based ui</a>. Executives don't have much time to go over reports but can spare a few minutes to browse a set of tailored feedback. During this sprint, we expanded that concept to incorporate the idea of Wildcards, a special kind of card that would contain insights about the company. Here are a few things a Wildcard could do:</p>"
 	}
 },
 {
 	"name": "TextContent",
 	"props": {
-		"content": "<p><ol><li>Geo-location based news and insights</li><li>Surface changes in scores</li><li>Suggest visit to locations with good or bad scores</li><li>Use our Text Analytics engine to provide topic related insights</li></ol></p>"
+		"content": "<p><ol><li>Geo-location based news and insights</li><li>Surface changes in scores</li><li>Suggest a visit to locations with good or bad scores</li><li>Use our Text Analytics engine to provide topic related insights</li></ol></p>"
 	}
 },
 {
@@ -190,7 +190,7 @@
 {
 	"name": "TextContent",
 	"props": {
-		"content": "<p>The <b>Done Card</b> is a card that would be displayed at the end of the \"deck\" of feedback cards. This card displays some motivational information to keep users asking for more decks (10 cards at time).</p>"
+		"content": "<p>The <b>Done Card</b> is a card that would be displayed at the end of the \"deck\" of feedback cards. This card displays some motivational information to keep users asking for more decks (10 cards at a time).</p>"
 	}
 },
 {
@@ -203,7 +203,7 @@
 {
 	"name": "TextContent",
 	"props": {
-		"content": "<p><b>BONUS:</b> Voices for AppleTV</p><p>We finished the project with some time to spare, because of that we could also work on a AppleTV prototype to show the flexibility of the concept.</p>"
+		"content": "<p><b>BONUS:</b> Voices for an Apple TV</p><p>We finished the project with some time to spare, because of that we could also work on a AppleTV prototype to show the flexibility of the concept.</p>"
 	}
 },
 {
@@ -216,13 +216,13 @@
 {
 	"name": "TextContent",
 	"props": {
-		"content": "<p><b>EXPERIENCE 2016</b></p><p>This is the annual event for the company where Medallia showcase all the work we are doing to improve customer experiences and create a company loved by their customers and employees.</p>"
+		"content": "<p><b>EXPERIENCE 2016</b></p><p>This is the annual event for the company where Medallia showcases all the work we are doing to improve customer experiences and create a company loved by its customers and employees.</p>"
 	}
 },
 {
 	"name": "TextContent",
 	"props": {
-		"content": "<p><b>Demo on Main Stage</b></p>"
+		"content": "<p><b>Demo on the Main Stage</b></p>"
 	}
 },
 {
@@ -241,7 +241,7 @@
 {
 	"name": "TextContent",
 	"props": {
-		"content": "<p><b>MEDALLIA BOOTH</b></p><p>We setup a video demo for voices at the company booth in the main pavilion.</p>"
+		"content": "<p><b>MEDALLIA BOOTH</b></p><p>We set up a video demo for voices at the company booth in the main pavilion.</p>"
 	}
 },
 {
@@ -254,7 +254,7 @@
 {
 	"name": "TextContent",
 	"props": {
-		"content": "<p><b>WORKSHOP</b></p><p>During the event I got myself on stage to present Voices in details to the audience. After the presentation we ran a Q&A session and was great to see how engaged customers were with the project.</p>"
+		"content": "<p><b>WORKSHOP</b></p><p>During the event, I got myself on stage to present Voices in details to the audience. After the presentation, we ran a Q&A session and was great to see how engaged customers were with the project.</p>"
 	}
 },
 {

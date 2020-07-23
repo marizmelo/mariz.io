@@ -12,13 +12,13 @@
     {
      "name": "TextContent",
      "props": {
-       "content": "<p>Have you ever wonder what your favorite celebrity watch when they have some extra tim in their hands? Moviegoer aims to uncover that information from different channels and delivery it directly to your e-mail address a list of curated movies and Tv shows for you to watch. </p>"
+       "content": "<p>Have you ever wonder what your favorite celebrity watch when they have some extra time in their hands? Moviegoer aims to uncover that information from different channels and deliver it directly to your e-mail address a list of curated movies and Tv shows for you to watch. </p>"
      }
   	},
     {
       "name": "TextContent",
       "props": {
-        "content": "<p>In 2020 we are staying home to save lives, having something interesting to watch and relax during this difficult times can be a good idea.</p>"
+        "content": "<p>In 2020 we are staying home to save lives, having something interesting to watch and relax during these difficult times can be a good idea.</p>"
       }
    	},
 		{
@@ -31,7 +31,7 @@
     {
       "name": "TextContent",
       "props": {
-        "content": "<p>Everytime someone subscribes the system will add that e-mail address to a queue that is triggered every week with new movies and tv shows suggestions from celebrities.</p>"
+        "content": "<p>Every time someone subscribes the system will add that e-mail address to a queue that is triggered every week with new movies and tv shows suggestions from celebrities.</p>"
       }
    	},
 		{

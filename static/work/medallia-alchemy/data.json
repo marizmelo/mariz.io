@@ -13,7 +13,7 @@
     {
      "name": "TextContent",
      "props": {
-       "content": "<p>One of the most advanced design systems created with focus on user experiences, accessibility, and extensibility.</p>"
+       "content": "<p>One of the most advanced design systems created with a focus on user experiences, accessibility, and extensibility.</p>"
      }
   	},
     {
@@ -25,7 +25,7 @@
     {
       "name": "TextContent",
       "props": {
-        "content": "<p>I worked together with the design systems team during this initiative creating specs and contributing for the overall look and feel of Medallia’s core customer experience reporting application.</p>"
+        "content": "<p>I worked together with the design systems team during this initiative creating specs and contributing to the overall look and feel of Medallia’s core customer experience reporting application.</p>"
       }
    	},
 		{

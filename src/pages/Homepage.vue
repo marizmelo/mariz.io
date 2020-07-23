@@ -21,12 +21,6 @@ export default {
   })
 }
 </script>
-<style media="screen">
-  body {
-    background: black;
-    color: white;
-  }
-</style>
 <style scoped>
   .announcements a {
     text-decoration: none;

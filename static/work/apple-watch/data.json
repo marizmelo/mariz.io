@@ -13,7 +13,7 @@
 		{
   		"name": "TextContent",
   		"props": {
-  			"content": "<h1>Getting feedback about the Apple Watch launch try-on experience</h1><p>Apple is well known by their great products. The Apple Watch is their most personal device, and for its release in 2015 they created a try-on experience implemented in their stores around the world.</p>"
+  			"content": "<h1>Getting feedback about the Apple Watch launch try-on experience</h1><p>Apple is well known for their great products. The Apple Watch is their most personal device, and for its release in 2015, they created a try-on experience implemented in their stores around the world.</p>"
   		}
 	 	},
     {
@@ -31,13 +31,13 @@
     {
       "name": "TextContent",
       "props": {
-        "content": "<ol><li>Customer makes an appointment online at Apple.com</li><li>Customer visits a store and try-on the Watch</li><li>A record of his visit is exported to the Survey Application</li><li>After the visit a survey Quickstart* e-mail is sent to the customer</li><li>In the e-mail the customer gives a score for the first question in the survey</li><li>The web browser is activated and the survey flow starts</li></ol><small>*Quickstart = first survey question as part of e-mail template</small>"
+        "content": "<ol><li>The customer makes an appointment online at Apple.com</li><li>Customer visits a store and try-on the Watch</li><li>A record of his visit is exported to the Survey Application</li><li>After the visit, a survey Quickstart* e-mail, is sent to the customer</li><li>In the e-mail the customer gives a score for the first question in the survey</li><li>The web browser is activated and the survey flow starts</li></ol><small>*Quickstart = first survey question as part of the e-mail template</small>"
       }
    	},
     {
       "name": "TextContent",
       "props": {
-        "content": "<p>Differently from the regular Apple survey we wanted to keep the try-on survey small, simple, and engaging. The following is the initial wireframe for the survey:</p>"
+        "content": "<p>Different from the regular Apple survey, we wanted to keep the try-on survey small, simple, and engaging. The following is the initial wireframe for the survey:</p>"
       }
    	},
  	 {
@@ -83,7 +83,7 @@
 {
 	"name": "TextContent",
 	"props": {
-		"content": "<p>Text only version used for the Watch itself (after it became available for sale in stores):</p>"
+		"content": "<p>Text-only version used for the Watch itself (after it became available for sale in stores):</p>"
 	}
 },
 {
@@ -115,7 +115,7 @@
 {
 	"name": "TextContent",
 	"props": {
-		"content": "<p>From the list above only the number #5 made to the final version (image below). There were logistic problems associated with the other ideas that would take us too much time to get them implemented correctly, for that reason we decide to add the ideas to our backlog and move on with the execution.</p>"
+		"content": "<p>From the list above only number #5 made to the final version (image below). There were logistic problems associated with the other ideas that would take us too much time to get them implemented correctly, for that reason we decide to add the ideas to our backlog and move on with the execution.</p>"
 	}
 },
 {
@@ -140,7 +140,7 @@
 {
 	"name": "TextContent",
 	"props": {
-		"content": "<p>Before this project I had a very limited view of surveys and how they work, but now I understand the complexity that exists behind a survey creation, branding, delivery, and data management.</p>"
+		"content": "<p>Before this project, I had a very limited view of surveys and how they work, but now I understand the complexity that exists behind a survey creation, branding, delivery, and data management.</p>"
 	}
 }
 	]
