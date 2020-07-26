@@ -1,7 +1,7 @@
 <template>
   <div id="homepage">
     <div class="mm-container title">
-      <h1>Hello! I’m <b>Mariz</b> <span class="role_1">, a design leader</span><span class="role_2">, a systems thinker</span></h1>
+      <h1>Hello! I’m <b>Mariz</b> <span class="role_1">, a product designer</span><span class="role_2">, a systems thinker</span></h1>
     </div>
     <div class="mm-container announcements">
         <b>#BlackLivesMatter</b>
@@ -72,7 +72,7 @@ export default {
       width: 0;
     }
     60%, 90% {
-      width: 7.8em;
+      width: 7.9em;
     }
   }
   @keyframes role1 {
@@ -80,7 +80,7 @@ export default {
       width: 0;
     }
     10%, 40% {
-      width: 7em;
+      width: 8.4em;
     }
   }
   @keyframes caret {

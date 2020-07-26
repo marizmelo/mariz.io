@@ -25,15 +25,6 @@
     "color": "#312D2A"
   },
   {
-    "location": "udemy-principle",
-    "logo": "/static/work/udemy-principle/logo.png",
-    "description": "Principle - Realistic Animations & Prototypes Course",
-    "preview": "/static/work/udemy-principle/preview.jpg",
-    "background":"/static/work/udemy-principle/background.jpg",
-    "color": "#3C2D5C",
-    "text": "white"
-  },
-  {
     "location": "medallia-surveys",
     "logo": "/static/work/medallia-surveys/logo.svg",
     "description": "Modern Surveys based on a micro Design System",
@@ -67,6 +58,15 @@
     "preview": "/static/work/apple-watch/preview.jpg",
     "background":"",
     "color": "#262626",
+    "text": "white"
+  },
+  {
+    "location": "udemy-principle",
+    "logo": "/static/work/udemy-principle/logo.png",
+    "description": "Principle - Realistic Animations & Prototypes Course",
+    "preview": "/static/work/udemy-principle/preview.jpg",
+    "background":"/static/work/udemy-principle/background.jpg",
+    "color": "#3C2D5C",
     "text": "white"
   },
   {
