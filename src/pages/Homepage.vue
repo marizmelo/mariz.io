@@ -92,6 +92,10 @@ export default {
     }
   }
 
+  .announcements {
+    margin: 44px auto;
+  }
+
   @media screen and (max-width: 480px) {
     .title {
       /* height: 100px; */
@@ -102,8 +106,5 @@ export default {
       padding: 30px 0;
     }
   }
-  .announcements {
-    /* margin-top: 44px; */
-    display: none;
-  }
+
 </style>

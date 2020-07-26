@@ -21,9 +21,6 @@ export default {
 }
 </script>
 <style scoped>
-  #work {
-    padding-top: 56px;
-  }
   .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
