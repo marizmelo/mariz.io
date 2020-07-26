@@ -94,7 +94,8 @@ export default {
 
   @media screen and (max-width: 480px) {
     .title {
-      height: 100px;
+      /* height: 100px; */
+      display: none;
     }
     h1 {
       font-size: 160%;
@@ -102,6 +103,7 @@ export default {
     }
   }
   .announcements {
-    margin-top: 44px;
+    /* margin-top: 44px; */
+    display: none;
   }
 </style>

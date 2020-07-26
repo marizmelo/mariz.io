@@ -89,7 +89,7 @@ export default {
   }
   .card-preview {
     background-position: center;
-    background-size: cover !important;
+    background-size: cover;
     width: 100%;
     max-width: 450px;
     height: 210px;
@@ -98,7 +98,7 @@ export default {
     transition: all .3s  ease-in-out;
   }
   .work-card-container:hover .card-title, .work-card-container:focus .card-title, .work-card-container.active .card-title {
-    margin: -44px auto 0 auto !important;
+    margin: -94px auto 0 auto;
   }
   .work-card-container:hover .card-preview, .work-card-container:focus .card-preview, .work-card-container.active .card-preview {
     bottom: -150px;
@@ -112,7 +112,7 @@ export default {
 
   @media screen and (max-width: 960px) {
       .work-card {
-        margin: 10px 0;
+        /* margin: 10px 0; */
       }
       .card-preview {
         background-size: 100%;
@@ -122,12 +122,22 @@ export default {
   }
 
   @media screen and (max-width: 480px) {
+    .work-card-container.active .card-title  {
+      margin: auto;
+    }
+    .work-card {
+      height: 300px;
+    }
     .card-title {
-      margin: -44px auto 0 auto !important;
+      /* margin: -44px auto 0 auto !important; */
     }
     .card-title img {
       max-width: 80%;
     }
+    .card-preview {
+      display: none;
+    }
+
     .work-card-container .card-preview {
       bottom: -150px !important;
     }
