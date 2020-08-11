@@ -13,7 +13,7 @@
 		{
   		"name": "TextContent",
   		"props": {
-  			"content": "<h1>Getting feedback about the Apple Watch launch try-on experience</h1><p>Apple is well known for their great products. The Apple Watch is their most personal device, and for its release in 2015, they created a try-on experience implemented in their stores around the world.</p>"
+  			"content": "<h1>Survey for the Apple Watch launch try-on experience</h1><p>Apple is well known for their great products. The Apple Watch is their most personal device, and for its release in 2015, they created a try-on experience implemented in their stores around the world.</p>"
   		}
 	 	},
     {
@@ -109,7 +109,7 @@
 {
 	"name": "TextContent",
 	"props": {
-		"content": "<p>Some ideas we had for the project:</p><ol><li>Star rating system</li><li>Picture of Apple Genius that customer would interact with at the store</li><li>Random pictures of the watch</li><li>Show the watch customer tried at the store</li><li>Show Edition (gold) watch for customers that tried that model</li></ol></p>"
+		"content": "<p>Some ideas we had for the project:</p><ol><li>Star rating system</li><li>Picture of the real Apple Genius customer interacted during their visit to the store</li><li>Random pictures of the watch</li><li>Show the watch customer tried at the store</li><li>Show Edition (gold) watch for customers that tried that model</li></ol></p>"
 	}
 },
 {
@@ -134,13 +134,7 @@
 {
 	"name": "TextContent",
 	"props": {
-		"content": "<p><b>First</b>, it became the most successful survey in the history of Apple retail in terms of completion rates.</p><p><b>Second</b>, the positive result opened the door for survey innovations at our company.</p>"
-	}
-},
-{
-	"name": "TextContent",
-	"props": {
-		"content": "<p>Before this project, I had a very limited view of surveys and how they work, but now I understand the complexity that exists behind a survey creation, branding, delivery, and data management.</p>"
+		"content": "<p><b>First</b>, it became the most successful survey in the history of Apple retail in terms of completion rates.</p><p><b>Second</b>, the positive result opened the door for survey innovations at Medallia.</p>"
 	}
 }
 	]

@@ -12,7 +12,7 @@
     {
   		"name": "TextContent",
   		"props": {
-  			"content": "<p>One of my first tasks at Oracle was to work with your Cloud team on ways to simplify their web console experience. As a cloud user, I was really excited by this opportunity.</p><p>The first task given to me was to sign up for our cloud infrastructure services. I identified several bottlenecks during the sign-up that we could remove or simplify along the way.</p>"
+  			"content": "<p>One of my first tasks at Oracle was to work with your Cloud team on ways to simplify their web console experience. As a cloud user, I was really excited by this opportunity.</p><p>The first task given to me was to sign up for our cloud infrastructure services. I broke down the sign-up process into multiple steps instead of one long form.</p>"
   		}
 	 },
    {
@@ -23,11 +23,11 @@
      }
    },
    {
-     "name": "TextContent",
-     "props": {
-       "content": "<p>Below is the final design for the sign-up screen. <a href='http://jsfiddle.net/jmarizfiddle/z9jdy15k/' target='_blank'>Access here</a> the prototype we did for the engineering team.</p>"
-     }
-  	},
+	"name": "TextContent",
+	"props": {
+		"content": "<p>In parallel we had several discussion about reducing the entry barriers for the users (payment information, phone verification, etc).</p><p>Unfortunately, because of security and business reasons some of those barriers are still there.</p><p>Below is the final design for the sign-up screen. <a href='http://jsfiddle.net/jmarizfiddle/z9jdy15k/' target='_blank'>Click here</a> to access the code prototype I created for the engineering team.</p>"
+	}
+	},
  	 {
  		 "name": "Images",
  		 "props": {

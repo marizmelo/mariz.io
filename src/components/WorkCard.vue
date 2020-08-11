@@ -93,7 +93,7 @@ export default {
     width: 100%;
     max-width: 450px;
     height: 210px;
-    bottom: -332px;
+    bottom: -400px;
     position: relative;
     transition: all .3s  ease-in-out;
   }

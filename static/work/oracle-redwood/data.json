@@ -13,7 +13,7 @@
     {
   		"name": "TextContent",
   		"props": {
-  			"content": "<p>Oracle has some great products and applications, but most of them did not look like they were made by the same company. In the spirit of creating consistency, we analyzed all of our user interfaces, looked for patterns and common components and, at the end developed a massive design system called <b>Redwood.</b></p>"
+  			"content": "<p>Oracle has some great products and applications, but most of them did not look like they were made by the same company. In the spirit of creating consistency, we analyzed all of our user interfaces, looked for patterns and common components, and, at the end developed a massive design system called <b>Redwood.</b></p>"
   		}
 	 },
    {
@@ -33,7 +33,7 @@
       "name": "Youtube",
       "props": {
         "url": "https://www.youtube-nocookie.com/embed/lY6EBo51Mks",
-        "caption": "OneDesign Wireframe Tookit"
+        "caption": "OneDesign Wireframe Toolkit"
       }
     },
 		{
