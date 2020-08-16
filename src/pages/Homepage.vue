@@ -3,10 +3,10 @@
     <div class="mm-container title">
       <div>
         <h1>Hello! My name is <b>Mariz</b>.</h1>
-        <h2>I'm a hands-on product designer leader based in San Jose, California.</h2>  
+        <h2>I'm a hands-on product designer based in San Jose, California.</h2>  
       </div>
     </div>
-    
+
     <Work/>
   </div>
 </template>
