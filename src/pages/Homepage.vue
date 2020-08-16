@@ -2,8 +2,7 @@
   <div id="homepage">
     <div class="mm-container title">
       <div>
-        <h1>Hello! My name is <b>Mariz</b>.</h1>
-        <h2>I'm a hands-on product designer based in San Jose, California.</h2>  
+        <h1>I am <b>Mariz Melo</b>, and I am passionate about solving problems with great people.</h1>
       </div>
     </div>
 
@@ -39,9 +38,9 @@ export default {
   h1 {
     display: block;
     font-size: 3rem;
-  }
-  h2 {
-    display: block;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.2em;
   }
 
   .announcements {

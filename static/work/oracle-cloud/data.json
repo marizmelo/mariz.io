@@ -6,7 +6,7 @@
     "preview": "/static/work/oracle-cloud/preview.jpg",
     "background":"/static/work/oracle-cloud/background.jpg",
     "color": "#312D2A",
-		"url": "https://www.oracle.com/cloud/"
+		"url": "https://myservices.us.oraclecloud.com/mycloud/signup"
 	},
 	"components": [
     {

@@ -13,9 +13,15 @@
     {
   		"name": "TextContent",
   		"props": {
-  			"content": "<p>Oracle has some great products and applications, but most of them did not look like they were made by the same company. In the spirit of creating consistency, we analyzed all of our user interfaces, looked for patterns and common components, and, at the end developed a massive design system called <b>Redwood.</b></p>"
+  			"content": "<p>Oracle has some great products and applications, but most of them did not look like they were made by the same company. In the spirit of creating consistency, we analyzed all of our user interfaces, looked for patterns and common components, and, at the end developed a massive design system called <b>Redwood.</b> But this process, as most projects in large companies, was not straight forward and it took massive cross-team collaboration and support from Oracle's leadership team, including <b>Larry Ellison</b> himself.</p>"
   		}
 	 },
+	 {
+		 "name": "TextContent",
+		 "props": {
+			 "content": "<p>We flew to Seattle, where we gathered in a room for a week to explore ideas of how this system should look, function, and sound. At the end of that week, we narrowed down to three very distinct design directions that we would be equally proud to develop as a design system.The idea was to present the design directions to our executives and customers and come up with the winning one. </p>"
+		 }
+	},
    {
      "name": "Youtube",
      "props": {
