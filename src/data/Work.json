@@ -25,21 +25,21 @@
     "color": "#312D2A"
   },
   {
-    "location": "medallia-surveys",
-    "logo": "/static/work/medallia-surveys/logo.svg",
-    "description": "Modern Surveys based on a micro Design System",
-    "preview": "/static/work/medallia-surveys/preview.jpg",
-    "background":"",
-    "color": "#17205D",
-    "text": "white"
-  },
-  {
     "location": "medallia-voices",
     "logo": "/static/work/medallia-voices/logo.svg",
     "description": "The voice of customers in the palm of your hands",
     "preview": "/static/work/medallia-voices/preview.jpg",
     "background":"",
     "color": "#1D2C99",
+    "text": "white"
+  },
+  {
+    "location": "medallia-surveys",
+    "logo": "/static/work/medallia-surveys/logo.svg",
+    "description": "Modern Surveys based on a micro Design System",
+    "preview": "/static/work/medallia-surveys/preview.jpg",
+    "background":"",
+    "color": "#17205D",
     "text": "white"
   },
   {

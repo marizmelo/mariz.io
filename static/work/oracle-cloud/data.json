@@ -12,7 +12,7 @@
     {
   		"name": "TextContent",
   		"props": {
-  			"content": "<p>One of my first tasks at Oracle was to work with your Cloud team on ways to simplify their web console experience. As a cloud user, I was really excited by this opportunity.</p><p>The first task given to me was to sign up for our cloud infrastructure services. I broke down the sign-up process into multiple steps instead of one long form.</p>"
+  			"content": "<p>One of my first tasks at Oracle was to work with your Cloud team on ways to simplify their web console experience. As a cloud user, I was really excited by this opportunity.</p><p>The first task given to me was to sign up for our cloud infrastructure services. I broke down the sign-up process into multiple steps instead of one long form.</p><p>Unfortunately, I could not remove all the obstacles during the user sign-up process like I wanted."
   		}
 	 },
    {
