@@ -12,7 +12,7 @@
     {
   		"name": "TextContent",
   		"props": {
-  			"content": "<p>In the process of creating a new identity for the Oracle brand (<a href='/work/oracle-redwood'>read about Redwood here</a>), we knew that the iconic Oracle website would be a way for us to make a statement within the company and with our customers. Things were about to change.</p><p> The first thing we did was to identify all the different websites and their owners(anyone who could help us understand those website's purpose and function). We invited all of them to join us at our Redwood city conference center for a week-long workshop.</p>"
+  			"content": "<p>While developing Oracle's new design system (<a href='/work/oracle-redwood'>read about it here</a>), we had the opportunty to re-imagine the company's website. It felt like the perfect way to show to our customers and employees some of the work we were doing in our products, and this was an opportunity of a lifetime.</p><p>Not all companies will allow you to work on a design system across product and marketing, and we embraced the challenge.</p><p> The first thing we did was to identify all the different websites and their owners(anyone who could help us understand those website's purpose and business goals). We invited all of them to join us at our Redwood city conference center for a week-long workshop.</p>"
   		}
 	 },
    {
@@ -25,7 +25,7 @@
    {
      "name": "TextContent",
      "props": {
-       "content": "<p>The team had a good time discussing common themes and getting to know each other. Each table became a group, and each group should propose solutions for everyday challenges across the company. I remember being in the group trying to solve how we could migrate current on-premises customers to the cloud in a shorter amount of time.</p>"
+       "content": "<p>We intended to gather as much information as possible about the different websites and how they aligned with the overall marketing and company strategies. We meet with representatives of different business areas, such as Cloud, Apps, Developer, and communities. We all had a good time discussing the websites and getting to know each other.</p><p>We ran an ice breaking workshop where each table became a group, and each group should propose solutions for everyday challenges across the company. I remember being in the group trying to solve how we could migrate current on-premises customers to the cloud in a shorter amount of time.</p>"
      }
    },
    {
@@ -38,14 +38,14 @@
    {
      "name": "TextContent",
      "props": {
-       "content": "<p>After the event, we synthesized all the information we had collected from our workshop into a deck shared with all the participants laying out our strategy moving forward.</p><p>We divided the project into <b>2 phases</b>.</p><p>During phase 1, we assessed the existing website and its “branches” (not owned by the core team). We also took a look over our information architecture and found a few inconsistencies along the way. We had too many websites, and at times the content on those also overlapped.</p><p>We decide to unify our cloud website (cloud.oracle.com) with our company website (listing applications and solutions).</p><p>We also realized that we would not have time to change everything, that is when we created the <b>Oracle Redwood Light migration</b> guide. The guide contained changes for design tokens (colors, typography, layout) and nothing more.</p>"
+       "content": "<p>After the event, we synthesized all the information we had collected from our workshop into a deck shared with all the participants explaining our strategy for the new corporate website.</p><p>We divided the project into <b>2 phases</b>.</p><p>During phase 1, we took a hard look at the existing website information architecture and its “branches” (not owned by the core team). We had too many websites, and at times the content on those also overlapped.</p><p>The biggest decision we made was to unify our cloud website (cloud.oracle.com) and our company website (listing applications and solutions).</p><p>We also realized that we would not have time to change everything. We created the <b>Redwood Light migration guide</b> for all pages we would not touch during phase 1. The guide contained changes for a few design tokens such as colors, typography, and spacing.</p>"
      }
   	},
 		{
 			"name": "Images",
 			"props": {
 				"url": "/static/work/oracle-com/light-migration.jpg",
-				"alt": "Oracle.com workshop"
+				"alt": "Redwood light migration style guide"
 			}
 		},
 		{
