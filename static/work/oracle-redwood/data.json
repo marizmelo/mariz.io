@@ -29,10 +29,16 @@
        "caption": "Oracle Redwood Design System video"
      }
    },
+		{
+			"name": "TextContent",
+			"props": {
+				"content": "<p>The name \"Redwood\" did not come out from our design exercise in Seattle. Instead, the name came after we had a direction in mind and decided to bring natural elements inside of it. Redwood, as a name, just made sense. It is the location of Oracle's iconic headquarters. Where you can find these majestic threes that, to me, reflected the level of effort and collaboration, we had to go through to develop the design system.</p>"
+			}
+	 },
    {
      "name": "TextContent",
      "props": {
-       "content": "<p>It was fun developing Oracle’s first design wireframe toolkit during this project. Before we even knew how the design system components would look visually, designers could create mockups for applications and get feedback for their early designs.</p><p>Once the visual design was created, designers could convert their wireframes into high definition composition with a click of a button.</p>"
+       "content": "<p>Personally, to me, it was fun developing Oracle’s first design wireframe toolkit during this project. Before we even knew how the design system components would look visually, designers could create mockups for applications and get feedback for their initial designs.<p></p>Once the visual design was created, designers could convert their wireframes into high definition composition with a click of a button.</p>"
      }
   	},
     {
