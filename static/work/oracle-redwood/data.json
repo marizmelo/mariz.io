@@ -54,6 +54,19 @@
 			 "url": "/static/work/oracle-redwood/design-oracle.jpg",
 			 "alt": "Oracle.com workshop"
 		 }
-	 }
+	 },
+	 {
+		 "name": "TextContent",
+		 "props": {
+			 "content": "<p>Redwood was officially revealed to the public during OpenWorld 19. This is the official video of the keynote by Steve Miranda and Hillel Cooperman.</p>"
+		 }
+	},
+	{
+		"name": "Youtube",
+		"props": {
+			"url": "https://www.youtube.com/embed/3TW2y35asTM",
+			"caption": "Redwood reveal during OpenWorld 19"
+		}
+	}
 	]
 }
