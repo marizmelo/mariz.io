@@ -26,7 +26,7 @@
      "name": "Youtube",
      "props": {
        "url": "https://www.youtube-nocookie.com/embed/fc6tCZlEOVo",
-       "caption": "Oracle Redwood Design System sneak peek"
+       "caption": "Oracle Redwood Design System video"
      }
    },
    {
@@ -42,6 +42,19 @@
         "caption": "OneDesign Wireframe Toolkit"
       }
     },
+	 	 {
+	 		 "name": "TextContent",
+	 		 "props": {
+	 			 "content": "<p>Redwood was officially revealed to the public during OpenWorld 19. This is the official video of the keynote by Steve Miranda and Hillel Cooperman.</p>"
+	 		 }
+	 	},
+	 	{
+	 		"name": "Youtube",
+	 		"props": {
+	 			"url": "https://www.youtube.com/embed/3TW2y35asTM",
+	 			"caption": "Redwood reveal during OpenWorld 19"
+	 		}
+	 	},
 		{
 			"name": "TextContent",
 			"props": {
@@ -52,21 +65,8 @@
 		 "name": "Images",
 		 "props": {
 			 "url": "/static/work/oracle-redwood/design-oracle.jpg",
-			 "alt": "Oracle.com workshop"
+			 "alt": "Redwood website"
 		 }
-	 },
-	 {
-		 "name": "TextContent",
-		 "props": {
-			 "content": "<p>Redwood was officially revealed to the public during OpenWorld 19. This is the official video of the keynote by Steve Miranda and Hillel Cooperman.</p>"
-		 }
-	},
-	{
-		"name": "Youtube",
-		"props": {
-			"url": "https://www.youtube.com/embed/3TW2y35asTM",
-			"caption": "Redwood reveal during OpenWorld 19"
-		}
-	}
+	 }
 	]
 }
