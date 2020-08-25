@@ -63,6 +63,7 @@ export default {
     position: relative;
     overflow: hidden;
     flex: 1;
+    margin: 24px;
     box-sizing: border-box;
     height: 500px;
     display: flex;
@@ -127,6 +128,8 @@ export default {
     }
     .work-card {
       height: 300px;
+      margin: 0;
+      margin-bottom: 24px;
     }
     .card-title {
       /* margin: -44px auto 0 auto !important; */

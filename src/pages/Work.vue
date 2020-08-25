@@ -43,6 +43,7 @@ export default {
 }
 </script>
 <style scoped>
+
   .link {
     display: inline;
     position: absolute;
